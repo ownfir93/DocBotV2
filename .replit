@@ -15,7 +15,7 @@ run = ["python3", "main.py"]
 deploymentTarget = "cloudrun"
 
 [workflows]
-runButton = "Run App.Py"
+runButton = "Run DocBot"
 
 [[workflows.workflow]]
 name = "Run App.Py"
@@ -25,3 +25,12 @@ author = 29406857
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 app.py"
+
+[[workflows.workflow]]
+name = "Run DocBot"
+author = 29406857
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 main.py"

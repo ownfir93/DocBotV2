@@ -32,9 +32,37 @@ import redis
 
 # --- Google Cloud ---
 from google.cloud import storage
+from google.oauth2 import service_account
 from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
+
+# --- Replit Service Account Key Handling ---
+# This code manages GCP credentials in the Replit environment
+import json
+import tempfile
+
+# Get the service account key from Replit Secrets
+gcp_key_json = os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON")
+if gcp_key_json:
+    try:
+        # Parse to verify it's valid JSON
+        json.loads(gcp_key_json)
+        
+        # Write to a temporary file that only this process can read
+        temp_key_file = tempfile.NamedTemporaryFile(delete=False, mode='w')
+        temp_key_file.write(gcp_key_json)
+        temp_key_file.close()
+        
+        # Set environment variable to point to this file
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = temp_key_file.name
+        print(f"GCP credentials loaded from GOOGLE_APPLICATION_CREDENTIALS_JSON to {temp_key_file.name}")
+    except json.JSONDecodeError:
+        print("ERROR: GOOGLE_APPLICATION_CREDENTIALS_JSON contains invalid JSON")
+    except Exception as e:
+        print(f"ERROR setting up GCP credentials: {e}")
+else:
+    print("WARNING: GOOGLE_APPLICATION_CREDENTIALS_JSON not found in environment")
 
 # --- Document Parsing ---
 from pdfminer.high_level import extract_text
@@ -178,19 +206,37 @@ gcs_client_runtime = None
 gcs_bucket_runtime = None
 
 def get_gcs_runtime_client_and_bucket():
-    """Initializes GCS client and bucket object for runtime use."""
+    """Initializes GCS client and bucket object using explicit credentials."""
     global gcs_client_runtime, gcs_bucket_runtime
     if gcs_client_runtime is None or gcs_bucket_runtime is None:
         if not GCS_BUCKET_NAME:
              raise ValueError("GCS_BUCKET_NAME not configured for runtime.")
         try:
-            # Use default credentials from the environment
-            gcs_client_runtime = storage.Client()
+            # Get the keyfile path set by the Replit secret handling code
+            key_file_path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
+            if not key_file_path or not os.path.exists(key_file_path):
+                 raise ValueError(f"GOOGLE_APPLICATION_CREDENTIALS path ('{key_file_path}') not valid or file missing for runtime.")
+
+            # Explicitly load credentials from the file
+            credentials = service_account.Credentials.from_service_account_file(key_file_path)
+            logging.info(f"Explicitly loaded runtime credentials from: {key_file_path}")
+
+            # Initialize client with explicit project AND explicitly loaded credentials
+            # Read project ID from env var set via secrets
+            project_id = os.getenv("GOOGLE_CLOUD_PROJECT")
+            if not project_id:
+                logging.warning("GOOGLE_CLOUD_PROJECT environment variable not set, using 'elevado' as fallback")
+                project_id = "elevado"
+
+            gcs_client_runtime = storage.Client(project=project_id, credentials=credentials)
+
+            # Now get the bucket object using the initialized client
             gcs_bucket_runtime = gcs_client_runtime.get_bucket(GCS_BUCKET_NAME)
-            logging.info(f"Runtime GCS client initialized for bucket '{GCS_BUCKET_NAME}'.")
+            logging.info(f"Runtime GCS client initialized and bucket '{GCS_BUCKET_NAME}' accessed.")
+
         except Exception as e:
-            logging.critical(f"Failed runtime GCS init for bucket '{GCS_BUCKET_NAME}': {e}", exc_info=True)
-            raise
+            logging.critical(f"Failed explicit runtime GCS init for bucket '{GCS_BUCKET_NAME}': {e}", exc_info=True)
+            raise # Re-raise to stop the app initialization
     return gcs_client_runtime, gcs_bucket_runtime
 
 def download_gcs_directory(gcs_prefix: str, local_dest: Path):
