@@ -10,34 +10,34 @@ authors = [
 requires-python = ">=3.11"
 dependencies = [
   # Core Flask App
-  "Flask==3.0.3", # Keep pinned or remove? Your choice.
+  "Flask~=3.0.3",
   "waitress",
   "Flask-Session",
   "redis",
-  # Langchain & AI (Let pip get latest compatible)
-  "openai",             # Unpinned
-  "httpx",              # Unpinned
-  "langchain-core",     # Unpinned
-  "langchain-openai",   # Unpinned
-  "langchain",          # Unpinned
-  "langchain-community",# Unpinned
-  "langchain-chroma",   # Unpinned
-  "chromadb",           # Unpinned (>=0.5.0 likely needed)
+  # Langchain & AI (Pinned older versions known to work in Replit env)
+  "openai~=1.16.0",
+  "httpx~=0.25.0",
+  "langchain-core~=0.1.40",
+  "langchain-openai~=0.1.0",
+  # Pin other langchain packages compatibly with core 0.1.x
+  "langchain~=0.1.0",
+  "langchain-community~=0.0.30",
+  "langchain-chroma",
+  "chromadb==0.5.0",
   "tiktoken",
-  # Cohere
+  # Cohere (Now uncommented based on your input)
   "langchain-cohere",
   "cohere",
   # Google Cloud
   "google-cloud-storage",
   "google-auth",
   # Document Parsers & Utils
-  "pdfminer.six==20221105", # Keep pinned
+  "pdfminer.six==20221105",
   "python-pptx",
   "docx2txt",
   "Pillow",
-  "python-dotenv==1.0.1", # Keep pinned
-  "PyYAML==6.0.1",     # Keep pinned
-  "lark",
+  "python-dotenv==1.0.1",
+  "PyYAML==6.0.1",
 ]
 
 # Optional dependencies (Keep commented out unless needed)
