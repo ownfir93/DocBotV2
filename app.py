@@ -48,12 +48,12 @@ if gcp_key_json:
     try:
         # Parse to verify it's valid JSON
         json.loads(gcp_key_json)
-        
+
         # Write to a temporary file that only this process can read
         temp_key_file = tempfile.NamedTemporaryFile(delete=False, mode='w')
         temp_key_file.write(gcp_key_json)
         temp_key_file.close()
-        
+
         # Set environment variable to point to this file
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = temp_key_file.name
         print(f"GCP credentials loaded from GOOGLE_APPLICATION_CREDENTIALS_JSON to {temp_key_file.name}")
@@ -86,6 +86,7 @@ try:
     from langchain_core.messages import HumanMessage, AIMessage
     from langchain.chains.combine_documents import create_stuff_documents_chain
     from langchain.retrievers.self_query.base import SelfQueryRetriever
+    from langchain.retrievers.self_query.chroma import ChromaTranslator
     from langchain.chains.query_constructor.base import AttributeInfo
     from langchain.retrievers import ContextualCompressionRetriever
     from langchain_cohere import CohereRerank
@@ -864,7 +865,8 @@ def initialize_app():
             metadata_field_info=metadata_field_info,
             search_kwargs={"k": RETRIEVAL_TOP_K},
             verbose=True,
-            enable_limit=True
+            enable_limit=True,
+            structured_query_translator=ChromaTranslator()
         )
         print("Self-Query Retriever created.")
 
