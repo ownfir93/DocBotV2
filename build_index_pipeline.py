@@ -308,13 +308,47 @@ def process_source_blob(blob: storage.Blob,
             f"gs://{blob.bucket.name}/{blob.name}",
             "original_filename":
             Path(blob.name).name,
-            # Add other metadata if needed (e.g., inferring document type)
-            # Example type detection based on GCS path:
-            "document_type":
-            Path(blob.name).parent.name if '/' in blob.name else "root"
         }
+        
+        # --- START Normalization Logic for document_type ---
+        parent_folder_name = Path(blob.name).parent.name if '/' in blob.name else "root"
+        parent_lower = parent_folder_name.lower() # Work with lowercase
+
+        doc_type = "unknown" # Default
+
+        if "case studies" in parent_lower or "case study" in parent_lower:
+            doc_type = "case_study" # Standardized value
+        elif "win report" in parent_lower or "who, what, win" in parent_lower: # Catches variations
+            doc_type = "win_report"
+        elif "discovery guide" in parent_lower:
+            doc_type = "discovery_guide"
+        elif "one-pager" in parent_lower or "one pager" in parent_lower: 
+            doc_type = "one_pager"
+        elif "sales deck" in parent_lower:
+            doc_type = "sales_deck"
+        elif "roi calculator" in parent_lower:
+            doc_type = "roi_calculator"
+        elif "value map" in parent_lower or "value landscape" in parent_lower:
+            doc_type = "value_tool"
+        elif "product marketing" in parent_lower:
+            doc_type = "product_marketing"
+        elif "enablement" in parent_lower:
+            doc_type = "enablement"
+        # Fallback to cleaned folder name if no specific rule matched
+        elif parent_lower:
+            # Replace non-alphanumeric with underscore, remove leading/trailing underscores
+            cleaned_type = re.sub(r'[^\w-]+', '_', parent_lower).strip('_')
+            # Ensure it's not empty after cleaning
+            if cleaned_type and cleaned_type != "root":
+                doc_type = cleaned_type
+            elif cleaned_type == "root":
+                doc_type = "root" # Keep 'root' if it was the only part
+
+        metadata['document_type'] = doc_type
+        # --- END Normalization Logic ---
+
         logging.debug(
-            f"Processed blob {blob.name}, extracted {len(text)} chars.")
+            f"Processed blob {blob.name}, extracted {len(text)} chars. Assigned document_type: {doc_type}")
         return Document(page_content=text, metadata=metadata)
 
     except Exception as e:
