@@ -1,0 +1,1417 @@
+[
+  {
+    "timestamp": "2025-04-17T01:12:00.525919",
+    "question": "what's a good case study for GE?",
+    "answer": "answer='A relevant case study for General Electric (GE) involves their experience with improving visibility on global planning and enhancing content reuse. The challenge was to break down silos and improve content visibility and reuse across global operations. The solution led to active user engagement in the creation process and the ability to track content performance effectively. The implementation of a global asset library allowed teams to share, repurpose, and reuse content across markets, thereby reducing redundancy and waste (Source: 4).' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T01:15:55.655117",
+    "question": "case study to share with B2B Accounts? ",
+    "answer": "answer='Here is a case study relevant for B2B accounts:\\n\\n**CDW Case Study:**\\n\\n- **Challenge:** CDW, a global technology giant with a vast catalog of thousands of brands and diverse products, aimed to create an omnichannel, personalized search experience for both its sellers and customers. Their existing Endeca-based search engine limited their capabilities.\\n\\n- **Solution:** CDW implemented Lucidworks Fusion to replace the Endeca search engine. This allowed them to collect and analyze user behavior signals and personalize the search experience for both sellers and e-commerce customers.\\n\\n- **Results:** The transition to Fusion resulted in a 3% increase in order conversion rate compared to Endeca, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions.\\n\\n(Source: 3)' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T01:19:46.608559",
+    "question": "Any good analyst reports to share for my upcoming meeting with Lenovo? ",
+    "answer": "answer=\"I don't have any specific analyst reports available in the provided context to share for your upcoming meeting with Lenovo.\" metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T01:20:15.039629",
+    "question": "any good marketing content I can share with an upcoming meet with Paypal? ",
+    "answer": "answer=\"I don't have any suitable marketing content to share for an upcoming meeting with PayPal based on the provided context.\" metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T01:24:57.475596",
+    "question": "whats a good casew study for GE",
+    "answer": "answer='A good case study for General Electric (GE) involves their efforts to improve content visibility and reuse across global planning. GE Healthcare faced challenges with siloed information and content reuse. By implementing a solution that allowed for better tracking of content performance and the creation process, they were able to engage users actively and reduce redundancy and waste through the use of a global asset library. This facilitated content sharing, repurposing, and reuse across markets. \\n\\nSource: NewsCred Discovery Guide.pdf.txt' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T01:25:19.593706",
+    "question": "no i mean to share with them for our sales pitch]",
+    "answer": "answer='A good case study to share with General Electric (GE) for your sales pitch could be the example of GE Healthcare. GE Healthcare faced the challenge of breaking silos to improve visibility on global planning and content reuse. The solution implemented allowed users to actively engage in the creation process and easily track content performance. The creation of a global asset library enabled teams to share, repurpose, and reuse content across markets, reducing redundancy and waste (Source: NewsCred Discovery Guide.pdf.txt).' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T01:28:03.784375",
+    "question": "whats a good case study to share for our upcoming sales pitch to GE",
+    "answer": "answer='A relevant case study to share for your upcoming sales pitch to General Electric (GE) is the GE Healthcare example. According to the context provided, GE Healthcare faced challenges in breaking silos by improving visibility on global planning and current efforts, and needed to improve content reuse. By using the solution provided, users were actively engaged in the creation process, could readily track content performance, and the global asset library allowed teams to share, repurpose, and reuse content across markets, thus reducing redundancy and waste (Source: NewsCred Discovery Guide.pdf.txt).' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T01:28:18.653549",
+    "question": "any others",
+    "answer": "answer=\"Here are some case studies that could be useful for a sales pitch to General Electric (GE):\\n\\n1. **Lenovo**:\\n   - **Problem**: Stagnant sales growth on the online channel.\\n   - **Solution**: Implemented Fusion with AI/Signals to improve the customer experience and engage the Lenovo community in search.\\n   - **Result**: Lenovo.com increased its annual revenue contribution through search by 95%; conversion rate increased by 35%; CTR increased by 93%; engagement in search increased by 73%; customer satisfaction increased by 34%. (Sources: 0, 2)\\n\\n2. **Uber**:\\n   - **Problem**: Operational inefficiencies due to employees struggling to find information within a massive proliferation of content.\\n   - **Solution**: Consolidated data from multiple sources into a single Fusion index.\\n   - **Result**: Single access point to corporate data saved the company an average of 700 work hours per day. (Source: 4)\\n\\n3. **AllState**:\\n   - **Problem**: Analysts and customer service reps spent too much time researching in various network drives, databases, and data warehouses.\\n   - **Solution**: Fusion indexes and enriches documents for searches across applications, offering secure, personalized, relevant search across all of Allstate\u2019s data.\\n   - **Result**: 50% faster query speeds and better search results, reducing the number of full-time employees needed to support the search platform. (Source: 4)\\n\\nThese case studies highlight the effectiveness of Lucidworks' solutions in improving operational efficiency and boosting revenue, which might resonate well with GE's needs.\" metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T05:39:09.469886",
+    "question": "what are the top 5 b2b case studies for us to use right now? ",
+    "answer": "answer='Here are the top 5 B2B case studies from the provided context:\\n\\n1. **CDW**: CDW replaced its Endeca-based search engine with Lucidworks Fusion to create an omnichannel, personalized search experience. This led to a 3% increase in order conversion rates, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions. [Source: 2]\\n\\n2. **Lenovo**: Lenovo implemented Fusion\\'s machine learning capabilities to enhance personalization and relevancy in search results. This resulted in a 95% increase in annual revenue contribution through search and a 55% improvement in relevancy within the first full year. [Source: 2, 16]\\n\\n3. **Morgan Stanley**: By building the \"Next Best Action\" application with Fusion, Morgan Stanley enabled financial advisors to prioritize actionable insights, improve client relationships, and increase revenue. [Source: 3]\\n\\n4. **Mouser**: After implementing Fusion, Mouser reduced its catalog indexing time by 50%, from over 15 hours to 6-8 hours daily, improving operational efficiency. [Source: 2]\\n\\n5. **Allstate**: Fusion provided Allstate with a secure, personalized search platform that resulted in 50% faster query speeds, fewer searches, and reduced the number of full-time employees needed to support the search platform. [Source: 4]' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:00:37.498790",
+    "question": "What are the top 5 b2c case studies? ",
+    "answer": "answer=\"I don't have the answer to the top 5 business-to-consumer (B2C) case studies using only the provided context.\" metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:00:52.131690",
+    "question": "what about b2b",
+    "answer": "answer='Here are the top 5 business-to-business (B2B) case studies based on the provided context:\\n\\n1. **CDW**: CDW replaced its Endeca-based search engine with Lucidworks Fusion, which allowed it to personalize search experiences for its sellers and customers. This resulted in a 3% increase in order conversion rates, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions (Source: 2).\\n\\n2. **Lenovo**: Lenovo deployed Lucidworks Fusion on their website, which improved search relevancy by 55% and increased annual revenue contribution through search by 95% in its first full year (Source: 12).\\n\\n3. **Mouser**: After implementing Fusion, Mouser, a distributor of semiconductors and electronic components, reduced its indexing time by 50%, from over 15 hours to 6-8 hours daily (Source: 2).\\n\\n4. **Morgan Stanley**: By using Fusion to create the \"Next Best Action\" application, Morgan Stanley improved financial advisors\\' efficiency in identifying appropriate products for clients, enhancing customer relationships and increasing revenue (Source: 11).\\n\\n5. **Uber**: Uber used Lucidworks Fusion to consolidate data from various sources, improving search recall and precision. This resulted in saving 700 work hours per day by providing a single access point to corporate data (Source: 8).' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:01:01.731768",
+    "question": "and b2c? ",
+    "answer": "answer='The provided context does not contain specific B2C case studies or details about the top 5 business-to-consumer (B2C) case studies. Therefore, I cannot provide an answer based solely on the context available.' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:01:21.958394",
+    "question": "are there any b2c case studies? ",
+    "answer": "answer='Yes, there are B2C case studies available. \\n\\n1. **Lenovo**: Lenovo replaced its website search engine with Lucidworks Fusion, which improved personalization and relevance of search results dramatically. In the first full year of deployment, Lenovo saw a 95% increase in annual revenue contribution through search, and relevancy improved by 55% with Fusion signals activated. (Source: 3)\\n\\n2. **B2C Site Search**: A case study highlights a 33% increase in conversions and a 63% increase in page views due to improved mobile customer experience with full-featured, streamlined mobile search and faster, scalable search capabilities. (Source: 7)\\n\\n3. **Commerce B2C**: Optimizing search in B2C enhances customer engagement by understanding shopper intent with AI-powered search, delivering fast and accurate results. (Source: 15)\\n\\nThese case studies demonstrate the positive impact of AI-powered search and personalization in enhancing customer experience and driving revenue in B2C contexts.' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:07:35.697345",
+    "question": "what's a good b2c case study to share with walmart for my upcoming pitch? ",
+    "answer": "answer='A suitable B2C case study to share with Walmart for your upcoming pitch is the Crate & Barrel case. Crate & Barrel enhanced its shopper engagement with improved search capabilities powered by Lucidworks. The results included higher conversion rates, increased add-to-carts, and order value due to more relevant product offerings to customers. This showcases the potential benefits of using Lucidworks to improve search relevance and customer experience, which could be compelling for Walmart. \\n\\n(Source: Lucidworks Crate & Barrel Case Study.pdf.txt)' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:13:47.542485",
+    "question": "What is a good pitch deck to share for my upcoming lenovo meeting? ",
+    "answer": "answer=\"A good pitch deck for an upcoming meeting with Lenovo should include the following elements based on the provided context:\\n\\n1. **Problem and Solution Overview**:\\n   - Highlight Lenovo's challenge with stagnant sales growth on their online channel.\\n   - Present the solution: Implementing Fusion with AI and signals to enhance the customer experience and search engagement (Source 3, 9, 13).\\n\\n2. **Results and Proof Points**:\\n   - Showcase the successful results from using Fusion: A 95% increase in annual revenue contribution through search, 35% increase in conversion rate, 93% increase in CTR, and a 34% boost in customer satisfaction (Source 3, 13, 16).\\n\\n3. **Personalization and Engagement**:\\n   - Emphasize the importance of personalization in search to cater to Lenovo's diverse customer base across 180 markets and multiple languages (Source 9, 16).\\n\\n4. **Technical Environment and Capabilities**:\\n   - Provide an overview of how Lucidworks uses customer behavior signals to improve search result relevancy and personalize customer experience (Source 9).\\n\\n5. **Proposed Agenda for the Meeting**:\\n   - Include a technical environment overview, challenges and requirements, a reverse demo, and a solutions overview with a Lucidworks demo (Source 6).\\n\\n6. **Key Stakeholders and Deliverables**:\\n   - Suggest involving IT & Data Engineering Leaders, Solution Architects, and Data Science Leaders. Deliverables should include documented technical requirements and custom demonstrations (Source 6).\\n\\nEnsure the deck is concise, visually engaging, and tailored to Lenovo's specific needs and objectives.\" metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:34:43.175217",
+    "question": "What are the top 5 case studies for a b2c prospect?",
+    "answer": "answer='The provided context does not contain specific information regarding the top 5 case studies for a B2C prospect.' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:35:01.524089",
+    "question": "are there any b2c case studies?",
+    "answer": "answer='The provided context does not include any B2C case studies.' metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-17T06:35:22.825415",
+    "question": "b2b?",
+    "answer": "answer=\"Yes, there are several B2B case studies provided in the context:\\n\\n1. **CDW**: CDW replaced its Endeca-based search engine with Lucidworks Fusion to create an omnichannel, personalized search experience. As a result, the order conversion rate increased by 3%, zero-results searches dropped by 40%, and add-to-cart rates increased by 10% ([source](#2)).\\n\\n2. **Lenovo**: Lenovo implemented Fusion's machine learning capabilities to enhance search personalization and relevancy on its website. In the first full year of deployment, annual revenue contribution through search increased by 95% ([source](#2)).\\n\\n3. **Mouser**: After implementing Fusion, Mouser reduced its daily indexing time by 50%, from over 15 hours to 6-8 hours ([source](#2)).\\n\\nThese examples highlight the impact of Lucidworks Fusion on enhancing search functionality and personalization in B2B environments.\" metadata=None",
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-21T23:19:31.526843",
+    "question": "What's a good b2b case study I can share?",
+    "answer": "A good business-to-business (B2B) case study you can share is about Lenovo. Lenovo is the number one PC manufacturer in the world, serving customers in B2B and B2C markets across over 180 countries and 88 different languages. They replaced their website's search functionality with Lucidworks Fusion, which offered machine learning capabilities and out-of-the-box tools like a rules editor. This change led to personalized search results, dramatically improved relevance, and a 95% increase in annual revenue contribution through search in the first full year of Fusion's deployment. Additionally, relevancy improved by 55% within just a few months of activating Fusion signals. This case study illustrates the impact of modernizing search capabilities in a global B2B context. (Source: 5)",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('3a8f0036-6954-41d5-8d6a-470c0a35f5c3'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/DC360 B2B Marketplaces Whitepaper .txt'), 'original_file_name': 'DC360 B2B Marketplaces Whitepaper .txt', 'file_sha1': '08ff2e59e0c30e215eb0d37d2349f5ce76f5d08f', 'file_size': 81767, 'chunk_size': 71, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='CASE STUDIES\\nSHAPECONNECT                                                                                         29\\nA B2B marketplace expands \\nfor business services\\n\\nLIQUIDITY SERVICES INC.                                     \\nA B2B marketplace firm reports \\nrecord gross sales volume\\n\\n33\\n\\nUNILEVER                                                                                                                    35\\nB2B ecommerce is a big digital \\ngrowth driver for Unilever sales') distance=0.33244234323501587",
+      "chunk=Document(metadata={'chunk_index': 16, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('b71df053-5763-49b0-bee3-24985bf2033b'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/1. Commerce Discovery Guide.txt'), 'original_file_name': '1. Commerce Discovery Guide.txt', 'file_sha1': '43443061cf1cb3189520c4e9712ec348f4a8d9b0', 'file_size': 26350, 'chunk_size': 364, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 5}, page_content='Client examples in B2B (B2B Case study one sheet)\\n\\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The company wanted to create an omnichannel, personalized search experience for both its sellers and its customers, but it was limited by the capabilities of its Endeca-based search engine. CDW replaced the Endeca engine with Lucidworks Fusion, allowing it to collect and analyze user behavior signals and personalize the search experience for both its sellers and its ecommerce customers. As a result, order conversion rate increased by 3% compared to Endeca, zero-results searches have dropped by 40%, and add-to-cart increased by 10%.\\n\\nLenovo, the number one PC manufacturer in the world, needed to replace search on its website, which serves customers in B2B and B2C markets in over 180 countries who speak 88 different languages. With Fusion\u2019s machine learning capabilities and out-of-the-box tools like rules editor, Lenovo customers\u2019 search results were personalized and relevancy improved dramatically. The first full year Fusion was deployed on Lenovo.com, annual revenue contribution through search increased by 95%. With Fusion signals turned on for just a few months, relevancy improved by 55%\\n\\nMouser is a global top-ten distributor of semiconductors and electronic components with a catalog of over 38M SKUs available for purchase on its website. With a catalog of this size, indexing took 15+ hours daily. After Fusion was implemented, index time was reduced by 50%\u20146 to 8 hours daily\\n\\n\\n\\n\\n\\nV1.1\\n\\n1. COMMERCE EXAMPLE\\n\\nCurrent State\\n\\nDifficulty in finding relevant products due to poor search functionality.\\n\\nInadequate personalization in product recommendations.') distance=0.37451910972595215",
+      "chunk=Document(metadata={'chunk_index': 9, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('109095b3-f7a6-4d60-bd08-8bdad12d1e5a'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/April2023 DC360 B2BEcommerceHandbook.txt'), 'original_file_name': 'April2023 DC360 B2BEcommerceHandbook.txt', 'file_sha1': 'e80c1fc780639ffd2d86ac3cca7a84acfbc5c14e', 'file_size': 47801, 'chunk_size': 289, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 4}, page_content='3. REVIEW EXISTING TECHNOLOGY\\n\\nUnderstand your existing business technology \\ninfrastructure, including ERP, PIM and other \\ndata management tools, figure out what you \\nneed to add or upgrade, and determine how you \\nneed to integrate these applications with your \\necommerce platform to provide the best online \\ncustomer experience.\\n\\n\u00a9 Copyright 2023 Digital Commerce 360 & Vertical Web Media LLC. All rights reserved. Content published April 2023.\\x0cSPONSORED ARTICLE\\n\\nCREATE A B2C-LIKE  \\nBUYING EXPERIENCE THAT \\nATTRACTS B2B BUYERS\\n\\nAn executive conversation  \\nwith Peter Curran,  \\nchief revenue officer,  \\nLucidworks\\n\\nB2B buyers want the relatively easy, streamlined \\nonline shopping they experience in their personal \\nlives to translate to their professional lives. But \\nB2B selling is far more complicated than the \\nstraightforward nature of B2C. SKU counts are  \\nhigher, products are more complex and payment \\noptions reach far beyond simple credit card \\ntransactions. To discuss how B2B companies can \\ncreate a B2C-like experience for complex B2B \\ntransactions in their effort to attract and retain \\ncustomers, Digital Commerce 360 spoke with \\nPeter Curran, chief revenue officer at Lucidworks. \\n\\nWhat are B2B companies\u2019 biggest  \\nchallenges when trying to meet B2B  \\nbuyer expectations today?') distance=0.3768967390060425",
+      "chunk=Document(metadata={'chunk_index': 8, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('e95ff253-6b7b-44a5-ba5e-0ec4b98d5c1e'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/Messaging and Positioning Framework - Fusion (2023 Final Copy).txt'), 'original_file_name': 'Messaging and Positioning Framework - Fusion (2023 Final Copy).txt', 'file_sha1': '5492b168ab4380675073b67a55494c5d94c1421b', 'file_size': 49168, 'chunk_size': 271, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='Sample Headlines:\\n\\nBanks\\n\\nMonetize your growing wealth of information\\n\\nEnable proactive fraud detection with complete 360 oversight and permission-driven security \\n\\nBuild trust and brand loyalty ensuring every touchpoint delivers a unified brand experience\\n\\nInsurance\\n\\nBetter serve policyholders with personal customer support across every channel\\n\\nEmpower financial advisors to serve your policyholders better using their wealth of data. \\n\\nControl of access to sensitive and certain customer data.\\n\\nCreate loyalty-building experiences \\n\\nCapital Markets\\n\\nOptimize customer relationships and asset management using insights uncovered from unstructured and nonstructured data\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nB2B Manufacturing / Distribution\\n\\n\\n\\nProblem Statement:\\n\\nB2B manufacturers are investing more in e-commerce to provide buyers with enhanced buying experiences. Many manufacturers are learning from B2C and modernizing their e-commerce experiences. However, manufacturers face a unique challenge grappling with growing explicit and tacit knowledge across multiple locations. \\n\\n\\n\\nB2B search clients must not only track their products but also the materials, machines, tools, processes, and logistics used to create their products.[5] In addition to this, manufacturers experience supply chain disruptions that are not always transparent as to the reasons for what is affected and why. Data infrastructure fails to keep pace with the massive influx of data generated every day as products move from the field to the fork, or from the plant floor to the final destination.[6]') distance=0.37824785709381104",
+      "chunk=Document(metadata={'chunk_index': 4, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('06fe8e55-a9e2-4a14-89d3-364026eccffb'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt'), 'original_file_name': 'B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt', 'file_sha1': '4b7f54b4851dbbac249355d31de713081a54e1e0', 'file_size': 4149, 'chunk_size': 182, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 9}, page_content='DC360: What should B2B companies do to \\nimplement these improvements?\\n\\nCurran: They should understand that even if they\u2019re \\noperating on an older platform, they can still improve their \\nB2B ecommerce experiences and personalize shopping \\nwithout taking on an expensive re-platforming project. \\n\\nB2B companies can partner with a platform-provider \\nlike Lucidworks to modernize their content and product \\ndiscovery technology. We offer solutions that can be \\npulled \u201coff the shelf\u201d and integrated into existing platforms \\nto drive real business value faster. In fact, one of the \\nworld\u2019s largest B2B technology providers partnered with \\nLucidworks to modernize its product discovery system. It \\nresulted in a 10% increase in add-to-cart, a 40% decrease \\nin zero-results search and a 3% increase in conversions.\\n\\nSPONSORED ARTICLE') distance=0.3797890245914459"
+    ]
+  },
+  {
+    "timestamp": "2025-04-21T23:37:01.464509",
+    "question": "What's a good b2b case study to share for an upcoming pitch to GE?",
+    "answer": "A suitable B2B case study to share for an upcoming pitch to General Electric (GE) is the CDW case. CDW, a global technology giant, wanted to create an omnichannel, personalized search experience for its sellers and customers. They replaced their Endeca-based search engine with Lucidworks Fusion, allowing them to collect and analyze user behavior signals and personalize the search experience. As a result, CDW experienced a 3% increase in order conversion rate, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions (Source: 5).",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('3a8f0036-6954-41d5-8d6a-470c0a35f5c3'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/DC360 B2B Marketplaces Whitepaper .txt'), 'original_file_name': 'DC360 B2B Marketplaces Whitepaper .txt', 'file_sha1': '08ff2e59e0c30e215eb0d37d2349f5ce76f5d08f', 'file_size': 81767, 'chunk_size': 71, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='CASE STUDIES\\nSHAPECONNECT                                                                                         29\\nA B2B marketplace expands \\nfor business services\\n\\nLIQUIDITY SERVICES INC.                                     \\nA B2B marketplace firm reports \\nrecord gross sales volume\\n\\n33\\n\\nUNILEVER                                                                                                                    35\\nB2B ecommerce is a big digital \\ngrowth driver for Unilever sales') distance=0.3683876395225525",
+      "chunk=Document(metadata={'chunk_index': 51, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 312, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='Capability\\n\\nWhat Makes Us Different \\nExamples: \\n\\n\\nManage High Scale and Complexity: PaaS or self-hosted deployment options for maximum control and security \\n\\nFlexible AI Capabilities: Don\u2019t get vendor locked into black box systems and future-proof AI initiatives by bringing any model \\n\\nNeural Hybrid Search: the best of Semantic Vector + Lexical models\\n\\nExpert services and domain expertise in B2B Manufacturing and Distribution\\n\\n\\n\\n\\nCredibility\\n\\nThe \u201cSays who?\u201d in our story.  Proof Points and examples to establish credibility. \\nCould be stating relevant list of customers.\\n\\nExample: \\n\u201cAnd we have incredible customers in your industry like Lenovo, Mouser, CDW and ST across a variety of use cases\u201d\\n\\n\u201cAfter the first full year Fusion was deployed on Lenovo.com, their annual search revenue increased by 95%. \\n\\n\\n\\n\\n\\n\\n\\nClose\\n\\nDependent on situation: First meeting vs. Cold Call.\\n\\nConfirm Alignment: Use as bridge to discovery, goals, etc\u2026\\n\\nAsk for specific action / next step.\\n\\nExample: \u201cWould it be alright if I asked a few questions to understand your priorities in this area and how we might be able to help?\u201d\\n\\n\\n\\n\\n\\nAssignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else.') distance=0.3706821799278259",
+      "chunk=Document(metadata={'chunk_index': 1, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('2d068c30-9649-419a-b391-61a70b41ba06'), 'qfile_path': PosixPath('drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks B2B Clients.txt'), 'original_file_name': 'Lucidworks B2B Clients.txt', 'file_sha1': '9c13dfa4caea763e8b2d29f36045c1b0ee0925f1', 'file_size': 116, 'chunk_size': 48, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='Raw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\\n\\nLucidworks B2B Clients') distance=0.3883609175682068",
+      "chunk=Document(metadata={'chunk_index': 23, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('54d109f9-05b3-455b-ba70-39de1d88a706'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Examples/NewsCred Discovery Guide.txt'), 'original_file_name': 'NewsCred Discovery Guide.txt', 'file_sha1': 'f2df11a00a256e30b0921b4077489107eb3650b2', 'file_size': 98094, 'chunk_size': 357, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 4}, page_content='Customer References/Case Studies\\n\\n\u25cf GE Healthcare | Problem: Marketers did not have a way to ideate, collaborate, and share\\ncontent, and the majority of content produced was product-focused. Solution: A global\\nasset library has allowed teams to share, repurpose and reuse content across markets,\\nreducing redundancy and waste. Results: Content is now designed to serve the customer,\\nand assets are shared across teams via a centralized asset library\\n\\n\u25cf Shell | Problem: AskBrand team responsible for brand reviews was inundated with 10000s\\nof approvals, and burdened by chasing \u2018requestors\u2019 for updates & relevant information.\\nSolution: Work Requests in combination with CMP Brand Compliance feature allows teams\\nto streamline intake, review and approval work\ufb02ows. Results: End-to-end design sessions\\nto minimize rework and rapid pace to deliver value and keep stakeholders (50k+ globally)\\nengaged\\n\\n\u25cf Wellmark | Problem: Disparate content production e\ufb00orts created a lack of alignment and\\nlimited cross-team visibility | Solution: Use CMP to streamline content editing, review and\\napproval via work\ufb02ows & calendar. Hosted 2-day brand and content governance workshop\\n| Results: Wellmark\u2019s new, comprehensive content governance model spanned multiple\\nteams, assessing various content requirements and calendar processes to create a shared\\nlanguage, playbook and process for improved e\ufb03ciency and cross-team collaboration.\\nIncreased operational e\ufb03ciency by 2x (completed 15 tasks/week vs. 7 previously).\\n\\nProprietary and Con\ufb01dential   |    \u00a9 NewsCred Inc. 2019 |\\n\\n16\\n\\n\\x0cValue Framework 5.2\\n\\nUse Case: Content Production') distance=0.3944573998451233",
+      "chunk=Document(metadata={'chunk_index': 49, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 286, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 9}, page_content='What makes a great pitch?\\n\\nConversational - \u201cMake it your own\u201d\\nSuccinct and tailored to event\\n\\nCold Call\\nTradeshow\\nPrep for Discovery\\nFirst Meeting with Stakeholder\\nDemo Intro\\n\\n\\n\\n\\n\\nThe 5 C\u2019s of a great message\\n\\nCatch\\nConviction\\nCapability\\nCredibility\\nClose\\n\\n\\n\\n\\n\\n\\nCatch\\n\\nOpening statement to grab their attention and make them want to hear more.\\n\\nExamples:\\n \"In the last year, e-commerce businesses integrating search-powered AI experienced a 50% increase in customer engagement and a 35% rise in sales conversions.\u201d\\n\\n\u201cDid you know that 45% of all digital revenue comes through search?\u201d\\n\\n\\n\\n\\n\\n\\nConviction\\n\\nThe \u201cWhy\u201d we matter\u2026what we \u201cbelieve\u201d\\nThe explanation of the problem we solve and why we exist\\n\\n\u201cOur mission is to solve\u2026..\u201d\\n\u201cThe reason we exist is \u2026.\u201d\\n\u201cAt Lucidworks we believe \u2026. \u201c \\n\\n\\n\\nExample: \u201cB2B customers demand a personalized and seamless digital experience. Our mission is to make AI Powered Search a super power for our B2B and Manufacturing clients\u201d\\n\\n\\n\\n\\nCapability\\n\\nThe \u201cWhat we do\u201d in more detail with highlights of how we do it differently and better.\\n3 Components:\\nWhat we do\u2026one or two sentences in succinct and plain language.\\nHow we do it\u2026Explanation of how we do it. \\nWhat makes us different/better\\n\\nLINK TO VALUE FRAMEWORK') distance=0.39622169733047485"
+    ]
+  },
+  {
+    "timestamp": "2025-04-21T23:44:51.724281",
+    "question": "What's a good b2b case study to share with general electric for my upcoming pitch?",
+    "answer": "A good B2B case study to share with General Electric for your upcoming pitch is the case of CDW. CDW, a global technology giant, replaced its Endeca-based search engine with Lucidworks Fusion to enhance its omnichannel, personalized search experience. This integration allowed CDW to analyze user behavior signals and personalize the search experience, resulting in a 3% increase in order conversion rates, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions (Source: 7).",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 51, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 312, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='Capability\\n\\nWhat Makes Us Different \\nExamples: \\n\\n\\nManage High Scale and Complexity: PaaS or self-hosted deployment options for maximum control and security \\n\\nFlexible AI Capabilities: Don\u2019t get vendor locked into black box systems and future-proof AI initiatives by bringing any model \\n\\nNeural Hybrid Search: the best of Semantic Vector + Lexical models\\n\\nExpert services and domain expertise in B2B Manufacturing and Distribution\\n\\n\\n\\n\\nCredibility\\n\\nThe \u201cSays who?\u201d in our story.  Proof Points and examples to establish credibility. \\nCould be stating relevant list of customers.\\n\\nExample: \\n\u201cAnd we have incredible customers in your industry like Lenovo, Mouser, CDW and ST across a variety of use cases\u201d\\n\\n\u201cAfter the first full year Fusion was deployed on Lenovo.com, their annual search revenue increased by 95%. \\n\\n\\n\\n\\n\\n\\n\\nClose\\n\\nDependent on situation: First meeting vs. Cold Call.\\n\\nConfirm Alignment: Use as bridge to discovery, goals, etc\u2026\\n\\nAsk for specific action / next step.\\n\\nExample: \u201cWould it be alright if I asked a few questions to understand your priorities in this area and how we might be able to help?\u201d\\n\\n\\n\\n\\n\\nAssignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else.') distance=0.3854919672012329",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('3a8f0036-6954-41d5-8d6a-470c0a35f5c3'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/DC360 B2B Marketplaces Whitepaper .txt'), 'original_file_name': 'DC360 B2B Marketplaces Whitepaper .txt', 'file_sha1': '08ff2e59e0c30e215eb0d37d2349f5ce76f5d08f', 'file_size': 81767, 'chunk_size': 71, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='CASE STUDIES\\nSHAPECONNECT                                                                                         29\\nA B2B marketplace expands \\nfor business services\\n\\nLIQUIDITY SERVICES INC.                                     \\nA B2B marketplace firm reports \\nrecord gross sales volume\\n\\n33\\n\\nUNILEVER                                                                                                                    35\\nB2B ecommerce is a big digital \\ngrowth driver for Unilever sales') distance=0.38553816080093384",
+      "chunk=Document(metadata={'chunk_index': 1, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('2d068c30-9649-419a-b391-61a70b41ba06'), 'qfile_path': PosixPath('drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks B2B Clients.txt'), 'original_file_name': 'Lucidworks B2B Clients.txt', 'file_sha1': '9c13dfa4caea763e8b2d29f36045c1b0ee0925f1', 'file_size': 116, 'chunk_size': 48, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='Raw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\\n\\nLucidworks B2B Clients') distance=0.40823766589164734",
+      "chunk=Document(metadata={'chunk_index': 49, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 286, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 9}, page_content='What makes a great pitch?\\n\\nConversational - \u201cMake it your own\u201d\\nSuccinct and tailored to event\\n\\nCold Call\\nTradeshow\\nPrep for Discovery\\nFirst Meeting with Stakeholder\\nDemo Intro\\n\\n\\n\\n\\n\\nThe 5 C\u2019s of a great message\\n\\nCatch\\nConviction\\nCapability\\nCredibility\\nClose\\n\\n\\n\\n\\n\\n\\nCatch\\n\\nOpening statement to grab their attention and make them want to hear more.\\n\\nExamples:\\n \"In the last year, e-commerce businesses integrating search-powered AI experienced a 50% increase in customer engagement and a 35% rise in sales conversions.\u201d\\n\\n\u201cDid you know that 45% of all digital revenue comes through search?\u201d\\n\\n\\n\\n\\n\\n\\nConviction\\n\\nThe \u201cWhy\u201d we matter\u2026what we \u201cbelieve\u201d\\nThe explanation of the problem we solve and why we exist\\n\\n\u201cOur mission is to solve\u2026..\u201d\\n\u201cThe reason we exist is \u2026.\u201d\\n\u201cAt Lucidworks we believe \u2026. \u201c \\n\\n\\n\\nExample: \u201cB2B customers demand a personalized and seamless digital experience. Our mission is to make AI Powered Search a super power for our B2B and Manufacturing clients\u201d\\n\\n\\n\\n\\nCapability\\n\\nThe \u201cWhat we do\u201d in more detail with highlights of how we do it differently and better.\\n3 Components:\\nWhat we do\u2026one or two sentences in succinct and plain language.\\nHow we do it\u2026Explanation of how we do it. \\nWhat makes us different/better\\n\\nLINK TO VALUE FRAMEWORK') distance=0.4098602533340454",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('7e6c4b1c-86f2-4b70-bab1-e5ac16b4eac0'), 'qfile_path': PosixPath('drive_txt/Customer Stories (Sommer)/Win Reports/Win Reports created by AEs/Opportunity Review - Exxon.txt'), 'original_file_name': 'Opportunity Review - Exxon.txt', 'file_sha1': '3fd55cf10d1eb263e170bb4e4bfce7cfb0bfbba7', 'file_size': 3047, 'chunk_size': 359, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 5}, page_content='SOLUTION\\nFusion was pitched as a flexible platform allowing the three major business units to create customized applications for their very distinct user communities, from geophysicists, to marketers and partner organizations.  Fusion was flexible enough to solve today\u2019s tough challenges and ready to provide machine learning models for tomorrow\u2019s problems. \\n\\nCompetition included SharePoint (incumbent), Coveo,  and Exxon owns about every other search engine under the sun.\\n\\nTechnically Won via a difficult POC (Huge Co-MVP\u2019s: Andy Tran and William Tseng) at the end of the year (Thanksgiving, Christmas, New Years\u2026)\\n\\nWorking early and often to expand relationships within Exxon from technical to business owners\u2026\\n\\nInitial Contact was This is a classic example of two things:\\nFocus on closing the deal FIRST and then expanding; rather than trying to close the \u201cEnterprise Deal\u201d  for the first project\\nDeveloping relationships with business users to understand success criteria, competition, and ROI\\nData Analytics Exec was initial Decision Maker;  Initially, the brass tacks Sharepoint Admins evaluated Fusion quickly and on first and second calls \u2013 very key d\u2019makers.    \\nFor PoC: Exec brought in a \u201cShepherd\u201d/Project Manager , who became our CHAMPION in the account and solved many problems for us that we may not have overcome otherwise\\n\\nFACE TIME \u2013 spent a lot of time in Houston which became vital for us to develop relationships\\n\\nTight ESM involvement in the POC process, cannot schedule the SE to work on this and walk away, must be fully integrated! Listen to SE input\\n\\nClear, Agreed-Upon PoC Success Plan \u2013 Client Buy-In Is Big Step / Essential\\n\\nDevelop Champions Quickly\\n\\nGo deep and wide in the org to uncover more Fusion opportunities') distance=0.4169938564300537"
+    ]
+  },
+  {
+    "timestamp": "2025-04-21T23:53:10.117783",
+    "question": "what's a good case study to share with General Electric for an upcoming pitch?",
+    "answer": "An effective case study to present to General Electric for an upcoming pitch is the GE Healthcare case study. The problem they faced was that marketers did not have a way to ideate, collaborate, and share content, with most content being product-focused. The solution was a global asset library allowing teams to share, repurpose, and reuse content across markets, reducing redundancy and waste. The results included content designed to serve the customer, with assets shared across teams via a centralized asset library (Source: NewsCred Discovery Guide.txt).",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 51, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 312, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='Capability\\n\\nWhat Makes Us Different \\nExamples: \\n\\n\\nManage High Scale and Complexity: PaaS or self-hosted deployment options for maximum control and security \\n\\nFlexible AI Capabilities: Don\u2019t get vendor locked into black box systems and future-proof AI initiatives by bringing any model \\n\\nNeural Hybrid Search: the best of Semantic Vector + Lexical models\\n\\nExpert services and domain expertise in B2B Manufacturing and Distribution\\n\\n\\n\\n\\nCredibility\\n\\nThe \u201cSays who?\u201d in our story.  Proof Points and examples to establish credibility. \\nCould be stating relevant list of customers.\\n\\nExample: \\n\u201cAnd we have incredible customers in your industry like Lenovo, Mouser, CDW and ST across a variety of use cases\u201d\\n\\n\u201cAfter the first full year Fusion was deployed on Lenovo.com, their annual search revenue increased by 95%. \\n\\n\\n\\n\\n\\n\\n\\nClose\\n\\nDependent on situation: First meeting vs. Cold Call.\\n\\nConfirm Alignment: Use as bridge to discovery, goals, etc\u2026\\n\\nAsk for specific action / next step.\\n\\nExample: \u201cWould it be alright if I asked a few questions to understand your priorities in this area and how we might be able to help?\u201d\\n\\n\\n\\n\\n\\nAssignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else.') distance=0.39901241660118103",
+      "chunk=Document(metadata={'chunk_index': 52, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 281, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='Assignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else. \\n\\nTop 3 pitches win $150, $100, & $50 in Whistle funds. \\n\\n\\n\\n\\n\\n\\n\\nScoring \\n\\n1 = Area of Focus\\n2 = Needs Improvement\\n3 = Getting There\\n4 = Excellent \\n5 = Masteryc\\n\\n\\n\\n\\nResources\\n\\nSales Rep Example \\nSE Example\\n5C Pitch Templates\\nValue Framework\\n5C Training (video recording)\\n\\n\\n\\nSample Script:\\n\\nCATCH: Did you know that 34% of eCommerce site users rely on on-site search to find the products they are looking to purchase, and when not given a satisfactory search experience, on average, about 12% of site users will bounce to a competitor\u2019s site to purchase?\\n\\nCONVICTION: Here at LucidWorks we\u2019re on a mission to help companies recapture this lost potential revenue, decrease bounce rates, and increase customer engagement. \\n\\nCAPABILITY: We do this by utilizing consumer signals in order to provide personalized product recommendations and relevant search results that our customers are demanding in today\u2019s world.') distance=0.41570207476615906",
+      "chunk=Document(metadata={'chunk_index': 23, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('54d109f9-05b3-455b-ba70-39de1d88a706'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Examples/NewsCred Discovery Guide.txt'), 'original_file_name': 'NewsCred Discovery Guide.txt', 'file_sha1': 'f2df11a00a256e30b0921b4077489107eb3650b2', 'file_size': 98094, 'chunk_size': 357, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 7}, page_content='Customer References/Case Studies\\n\\n\u25cf GE Healthcare | Problem: Marketers did not have a way to ideate, collaborate, and share\\ncontent, and the majority of content produced was product-focused. Solution: A global\\nasset library has allowed teams to share, repurpose and reuse content across markets,\\nreducing redundancy and waste. Results: Content is now designed to serve the customer,\\nand assets are shared across teams via a centralized asset library\\n\\n\u25cf Shell | Problem: AskBrand team responsible for brand reviews was inundated with 10000s\\nof approvals, and burdened by chasing \u2018requestors\u2019 for updates & relevant information.\\nSolution: Work Requests in combination with CMP Brand Compliance feature allows teams\\nto streamline intake, review and approval work\ufb02ows. Results: End-to-end design sessions\\nto minimize rework and rapid pace to deliver value and keep stakeholders (50k+ globally)\\nengaged\\n\\n\u25cf Wellmark | Problem: Disparate content production e\ufb00orts created a lack of alignment and\\nlimited cross-team visibility | Solution: Use CMP to streamline content editing, review and\\napproval via work\ufb02ows & calendar. Hosted 2-day brand and content governance workshop\\n| Results: Wellmark\u2019s new, comprehensive content governance model spanned multiple\\nteams, assessing various content requirements and calendar processes to create a shared\\nlanguage, playbook and process for improved e\ufb03ciency and cross-team collaboration.\\nIncreased operational e\ufb03ciency by 2x (completed 15 tasks/week vs. 7 previously).\\n\\nProprietary and Con\ufb01dential   |    \u00a9 NewsCred Inc. 2019 |\\n\\n16\\n\\n\\x0cValue Framework 5.2\\n\\nUse Case: Content Production') distance=0.4174979329109192",
+      "chunk=Document(metadata={'chunk_index': 49, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 286, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='What makes a great pitch?\\n\\nConversational - \u201cMake it your own\u201d\\nSuccinct and tailored to event\\n\\nCold Call\\nTradeshow\\nPrep for Discovery\\nFirst Meeting with Stakeholder\\nDemo Intro\\n\\n\\n\\n\\n\\nThe 5 C\u2019s of a great message\\n\\nCatch\\nConviction\\nCapability\\nCredibility\\nClose\\n\\n\\n\\n\\n\\n\\nCatch\\n\\nOpening statement to grab their attention and make them want to hear more.\\n\\nExamples:\\n \"In the last year, e-commerce businesses integrating search-powered AI experienced a 50% increase in customer engagement and a 35% rise in sales conversions.\u201d\\n\\n\u201cDid you know that 45% of all digital revenue comes through search?\u201d\\n\\n\\n\\n\\n\\n\\nConviction\\n\\nThe \u201cWhy\u201d we matter\u2026what we \u201cbelieve\u201d\\nThe explanation of the problem we solve and why we exist\\n\\n\u201cOur mission is to solve\u2026..\u201d\\n\u201cThe reason we exist is \u2026.\u201d\\n\u201cAt Lucidworks we believe \u2026. \u201c \\n\\n\\n\\nExample: \u201cB2B customers demand a personalized and seamless digital experience. Our mission is to make AI Powered Search a super power for our B2B and Manufacturing clients\u201d\\n\\n\\n\\n\\nCapability\\n\\nThe \u201cWhat we do\u201d in more detail with highlights of how we do it differently and better.\\n3 Components:\\nWhat we do\u2026one or two sentences in succinct and plain language.\\nHow we do it\u2026Explanation of how we do it. \\nWhat makes us different/better\\n\\nLINK TO VALUE FRAMEWORK') distance=0.41813623905181885",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('7e6c4b1c-86f2-4b70-bab1-e5ac16b4eac0'), 'qfile_path': PosixPath('drive_txt/Customer Stories (Sommer)/Win Reports/Win Reports created by AEs/Opportunity Review - Exxon.txt'), 'original_file_name': 'Opportunity Review - Exxon.txt', 'file_sha1': '3fd55cf10d1eb263e170bb4e4bfce7cfb0bfbba7', 'file_size': 3047, 'chunk_size': 359, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 3}, page_content='SOLUTION\\nFusion was pitched as a flexible platform allowing the three major business units to create customized applications for their very distinct user communities, from geophysicists, to marketers and partner organizations.  Fusion was flexible enough to solve today\u2019s tough challenges and ready to provide machine learning models for tomorrow\u2019s problems. \\n\\nCompetition included SharePoint (incumbent), Coveo,  and Exxon owns about every other search engine under the sun.\\n\\nTechnically Won via a difficult POC (Huge Co-MVP\u2019s: Andy Tran and William Tseng) at the end of the year (Thanksgiving, Christmas, New Years\u2026)\\n\\nWorking early and often to expand relationships within Exxon from technical to business owners\u2026\\n\\nInitial Contact was This is a classic example of two things:\\nFocus on closing the deal FIRST and then expanding; rather than trying to close the \u201cEnterprise Deal\u201d  for the first project\\nDeveloping relationships with business users to understand success criteria, competition, and ROI\\nData Analytics Exec was initial Decision Maker;  Initially, the brass tacks Sharepoint Admins evaluated Fusion quickly and on first and second calls \u2013 very key d\u2019makers.    \\nFor PoC: Exec brought in a \u201cShepherd\u201d/Project Manager , who became our CHAMPION in the account and solved many problems for us that we may not have overcome otherwise\\n\\nFACE TIME \u2013 spent a lot of time in Houston which became vital for us to develop relationships\\n\\nTight ESM involvement in the POC process, cannot schedule the SE to work on this and walk away, must be fully integrated! Listen to SE input\\n\\nClear, Agreed-Upon PoC Success Plan \u2013 Client Buy-In Is Big Step / Essential\\n\\nDevelop Champions Quickly\\n\\nGo deep and wide in the org to uncover more Fusion opportunities') distance=0.42566198110580444"
+    ]
+  },
+  {
+    "timestamp": "2025-04-21T23:54:20.589846",
+    "question": "Are there any good pitch decks I can use?",
+    "answer": "Based on the provided context, there is no specific mention of a pitch deck available for a presentation to General Electric. However, resources like \"Sales Starter Templates\" and \"Product Marketing Master Deck\" are mentioned, which could potentially be used or adapted for your presentation needs. For a more tailored deck, consider using these resources as a starting point and customize them with relevant information for General Electric.\n\nIf you need a specific deck or template, you may need to create one based on the general guidelines provided, such as using the 5C format for pitches.",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 52, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 281, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='Assignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else. \\n\\nTop 3 pitches win $150, $100, & $50 in Whistle funds. \\n\\n\\n\\n\\n\\n\\n\\nScoring \\n\\n1 = Area of Focus\\n2 = Needs Improvement\\n3 = Getting There\\n4 = Excellent \\n5 = Masteryc\\n\\n\\n\\n\\nResources\\n\\nSales Rep Example \\nSE Example\\n5C Pitch Templates\\nValue Framework\\n5C Training (video recording)\\n\\n\\n\\nSample Script:\\n\\nCATCH: Did you know that 34% of eCommerce site users rely on on-site search to find the products they are looking to purchase, and when not given a satisfactory search experience, on average, about 12% of site users will bounce to a competitor\u2019s site to purchase?\\n\\nCONVICTION: Here at LucidWorks we\u2019re on a mission to help companies recapture this lost potential revenue, decrease bounce rates, and increase customer engagement. \\n\\nCAPABILITY: We do this by utilizing consumer signals in order to provide personalized product recommendations and relevant search results that our customers are demanding in today\u2019s world.') distance=0.3673677444458008",
+      "chunk=Document(metadata={'chunk_index': 49, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 286, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='What makes a great pitch?\\n\\nConversational - \u201cMake it your own\u201d\\nSuccinct and tailored to event\\n\\nCold Call\\nTradeshow\\nPrep for Discovery\\nFirst Meeting with Stakeholder\\nDemo Intro\\n\\n\\n\\n\\n\\nThe 5 C\u2019s of a great message\\n\\nCatch\\nConviction\\nCapability\\nCredibility\\nClose\\n\\n\\n\\n\\n\\n\\nCatch\\n\\nOpening statement to grab their attention and make them want to hear more.\\n\\nExamples:\\n \"In the last year, e-commerce businesses integrating search-powered AI experienced a 50% increase in customer engagement and a 35% rise in sales conversions.\u201d\\n\\n\u201cDid you know that 45% of all digital revenue comes through search?\u201d\\n\\n\\n\\n\\n\\n\\nConviction\\n\\nThe \u201cWhy\u201d we matter\u2026what we \u201cbelieve\u201d\\nThe explanation of the problem we solve and why we exist\\n\\n\u201cOur mission is to solve\u2026..\u201d\\n\u201cThe reason we exist is \u2026.\u201d\\n\u201cAt Lucidworks we believe \u2026. \u201c \\n\\n\\n\\nExample: \u201cB2B customers demand a personalized and seamless digital experience. Our mission is to make AI Powered Search a super power for our B2B and Manufacturing clients\u201d\\n\\n\\n\\n\\nCapability\\n\\nThe \u201cWhat we do\u201d in more detail with highlights of how we do it differently and better.\\n3 Components:\\nWhat we do\u2026one or two sentences in succinct and plain language.\\nHow we do it\u2026Explanation of how we do it. \\nWhat makes us different/better\\n\\nLINK TO VALUE FRAMEWORK') distance=0.3764580488204956",
+      "chunk=Document(metadata={'chunk_index': 8, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('5064e8e5-1f87-4e97-869c-5d7123de1558'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/Rappi POC Review 11.12.20 (1).txt'), 'original_file_name': 'Rappi POC Review 11.12.20 (1).txt', 'file_sha1': '0210334512d23d08f0185701efd1c1376ca81010', 'file_size': 9756, 'chunk_size': 326, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 6}, page_content='INSTALL THE LATO FONT\\nUnder the fonts menu, click the More Fonts item at the top and locate and add Lato (the Lucidworks corporate font)\\nIf you plan to use Powerpoint, make sure you have installed Lato on your Mac by downloading the font family it from google\\n\\nSales Starter Templates\\n\\n1st meeting deck:\\nHigh-level Overview\\n\\n5th meeting deck:\\nProposal\\n\\n5\\n\\nHigh-level overview of the  problems we solve, how we deliver value, and our solution.\\n\\nLearnings from the customer, identify required capabilities and relevant Lucidworks differentiators. \\n\\nOverview to answer questions on Lucidworks technical & security capabilities, business and implementation and more. \\n\\n2nd meeting deck:\\nSolution Mapping\\n\\n3rd meeting deck:\\nTechnical Presentation\\n\\nResults of the proof of value, who you met with, what you heard, and key challenges.\\n \\n\\n4th meeting deck:\\nPOV Results\\n\\nProposal and next steps to close the deal, including a deep dive on relevant products, pricing, and services.\\n\\nCorporate Deck Management\\n\\nADMINISTRATIVE SLIDES \\n(Agenda, Next Steps, About us)\\n\\nPoint of View\\n\\nSolutions & Differentiation\\n(Products and Services)\\n\\nProof Points\\n\\nSOURCE SLIDES \\n(linked to decks)\\n\\nTechnical Slides\\n\\nImporting Slides\\n\\nSelect File > Import Slides\\n\\nLocate the relevant deck by searching for [master deck]\\n\\nSelect Slides to import\\n\\nImport all the slides you need BEFORE you export to powerpoint (if that\u2019s your plan)\\n\\nAlternatively you can just open the master decks and copy/paste slides into your deck as needed.') distance=0.4188290238380432",
+      "chunk=Document(metadata={'chunk_index': 51, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 312, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='Capability\\n\\nWhat Makes Us Different \\nExamples: \\n\\n\\nManage High Scale and Complexity: PaaS or self-hosted deployment options for maximum control and security \\n\\nFlexible AI Capabilities: Don\u2019t get vendor locked into black box systems and future-proof AI initiatives by bringing any model \\n\\nNeural Hybrid Search: the best of Semantic Vector + Lexical models\\n\\nExpert services and domain expertise in B2B Manufacturing and Distribution\\n\\n\\n\\n\\nCredibility\\n\\nThe \u201cSays who?\u201d in our story.  Proof Points and examples to establish credibility. \\nCould be stating relevant list of customers.\\n\\nExample: \\n\u201cAnd we have incredible customers in your industry like Lenovo, Mouser, CDW and ST across a variety of use cases\u201d\\n\\n\u201cAfter the first full year Fusion was deployed on Lenovo.com, their annual search revenue increased by 95%. \\n\\n\\n\\n\\n\\n\\n\\nClose\\n\\nDependent on situation: First meeting vs. Cold Call.\\n\\nConfirm Alignment: Use as bridge to discovery, goals, etc\u2026\\n\\nAsk for specific action / next step.\\n\\nExample: \u201cWould it be alright if I asked a few questions to understand your priorities in this area and how we might be able to help?\u201d\\n\\n\\n\\n\\n\\nAssignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else.') distance=0.4233035445213318",
+      "chunk=Document(metadata={'chunk_index': 48, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 342, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 3}, page_content=\"Would you have time for a quick 15-minute call to discuss this further? \\nI'd love to hear your thoughts.\\n[Your Name]\\n\\n\\nSample Messages\\n\\n1/17/2024\\n\\nAGENDA\\n\\n\\nNRF Updates\\nQ4 Forecast\\nGTM Updates\\nContext Setting Pitch\\n\\nNRF\\n\\nQ4 Forecast\\n\\nQ4 FORECAST\\n\\n\\nQ4 Commit: $2.8m and 3 new logos\\nQ4 Best Case: $3.3m and 4 new logos\\n\\nClosed QTD: $1.656m (2 new logos); $1.14m to go\\nMajor Deals Closed: RH ($761k), Calix ($200k-New Logo), Gov Tech ($110k -new logo), Morgan Stanley ($130k)\\n\\n\\n\\n\\n\\nCommit Deals to Close:\\nAutozone- $564-$690K\\nFerguson & Build- $137k-$188k\\nDistrelec (New Logo)- $246k\\nDish- $61k\\n\\n\\n\\n\\nBest Case Deals ($2.25m)\\nCorning- $187k\\nADI (New Logo)- $245-$515k\\nMicrochip- $156k\\nDocusign- $49k\\nFootlocker- $500k-$770k\\n\\n\\n\\n\\n\\n\\nGTM Updates\\n\\nContext Setting Pitch\\n\\nWhat is \\n\u201cContext Setting\u201d \\nand why is it important?\\n\\n\\n\\n\\nWhat makes a great pitch?\\n\\nConversational - \u201cMake it your own\u201d\\nSuccinct and tailored to event\\n\\nCold Call\\nTradeshow\\nPrep for Discovery\\nFirst Meeting with Stakeholder\\nDemo Intro\\n\\n\\n\\n\\n\\nThe 5 C\u2019s of a great message\\n\\nCatch\\nConviction\\nCapability\\nCredibility\\nClose\") distance=0.43044179677963257"
+    ]
+  },
+  {
+    "timestamp": "2025-04-21T23:54:44.213753",
+    "question": "Can you provide any pitch deck?",
+    "answer": "I don't have the answer.",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 52, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 281, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='Assignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else. \\n\\nTop 3 pitches win $150, $100, & $50 in Whistle funds. \\n\\n\\n\\n\\n\\n\\n\\nScoring \\n\\n1 = Area of Focus\\n2 = Needs Improvement\\n3 = Getting There\\n4 = Excellent \\n5 = Masteryc\\n\\n\\n\\n\\nResources\\n\\nSales Rep Example \\nSE Example\\n5C Pitch Templates\\nValue Framework\\n5C Training (video recording)\\n\\n\\n\\nSample Script:\\n\\nCATCH: Did you know that 34% of eCommerce site users rely on on-site search to find the products they are looking to purchase, and when not given a satisfactory search experience, on average, about 12% of site users will bounce to a competitor\u2019s site to purchase?\\n\\nCONVICTION: Here at LucidWorks we\u2019re on a mission to help companies recapture this lost potential revenue, decrease bounce rates, and increase customer engagement. \\n\\nCAPABILITY: We do this by utilizing consumer signals in order to provide personalized product recommendations and relevant search results that our customers are demanding in today\u2019s world.') distance=0.3839609622955322",
+      "chunk=Document(metadata={'chunk_index': 49, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 286, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='What makes a great pitch?\\n\\nConversational - \u201cMake it your own\u201d\\nSuccinct and tailored to event\\n\\nCold Call\\nTradeshow\\nPrep for Discovery\\nFirst Meeting with Stakeholder\\nDemo Intro\\n\\n\\n\\n\\n\\nThe 5 C\u2019s of a great message\\n\\nCatch\\nConviction\\nCapability\\nCredibility\\nClose\\n\\n\\n\\n\\n\\n\\nCatch\\n\\nOpening statement to grab their attention and make them want to hear more.\\n\\nExamples:\\n \"In the last year, e-commerce businesses integrating search-powered AI experienced a 50% increase in customer engagement and a 35% rise in sales conversions.\u201d\\n\\n\u201cDid you know that 45% of all digital revenue comes through search?\u201d\\n\\n\\n\\n\\n\\n\\nConviction\\n\\nThe \u201cWhy\u201d we matter\u2026what we \u201cbelieve\u201d\\nThe explanation of the problem we solve and why we exist\\n\\n\u201cOur mission is to solve\u2026..\u201d\\n\u201cThe reason we exist is \u2026.\u201d\\n\u201cAt Lucidworks we believe \u2026. \u201c \\n\\n\\n\\nExample: \u201cB2B customers demand a personalized and seamless digital experience. Our mission is to make AI Powered Search a super power for our B2B and Manufacturing clients\u201d\\n\\n\\n\\n\\nCapability\\n\\nThe \u201cWhat we do\u201d in more detail with highlights of how we do it differently and better.\\n3 Components:\\nWhat we do\u2026one or two sentences in succinct and plain language.\\nHow we do it\u2026Explanation of how we do it. \\nWhat makes us different/better\\n\\nLINK TO VALUE FRAMEWORK') distance=0.39722496271133423",
+      "chunk=Document(metadata={'chunk_index': 48, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 342, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 6}, page_content=\"Would you have time for a quick 15-minute call to discuss this further? \\nI'd love to hear your thoughts.\\n[Your Name]\\n\\n\\nSample Messages\\n\\n1/17/2024\\n\\nAGENDA\\n\\n\\nNRF Updates\\nQ4 Forecast\\nGTM Updates\\nContext Setting Pitch\\n\\nNRF\\n\\nQ4 Forecast\\n\\nQ4 FORECAST\\n\\n\\nQ4 Commit: $2.8m and 3 new logos\\nQ4 Best Case: $3.3m and 4 new logos\\n\\nClosed QTD: $1.656m (2 new logos); $1.14m to go\\nMajor Deals Closed: RH ($761k), Calix ($200k-New Logo), Gov Tech ($110k -new logo), Morgan Stanley ($130k)\\n\\n\\n\\n\\n\\nCommit Deals to Close:\\nAutozone- $564-$690K\\nFerguson & Build- $137k-$188k\\nDistrelec (New Logo)- $246k\\nDish- $61k\\n\\n\\n\\n\\nBest Case Deals ($2.25m)\\nCorning- $187k\\nADI (New Logo)- $245-$515k\\nMicrochip- $156k\\nDocusign- $49k\\nFootlocker- $500k-$770k\\n\\n\\n\\n\\n\\n\\nGTM Updates\\n\\nContext Setting Pitch\\n\\nWhat is \\n\u201cContext Setting\u201d \\nand why is it important?\\n\\n\\n\\n\\nWhat makes a great pitch?\\n\\nConversational - \u201cMake it your own\u201d\\nSuccinct and tailored to event\\n\\nCold Call\\nTradeshow\\nPrep for Discovery\\nFirst Meeting with Stakeholder\\nDemo Intro\\n\\n\\n\\n\\n\\nThe 5 C\u2019s of a great message\\n\\nCatch\\nConviction\\nCapability\\nCredibility\\nClose\") distance=0.4193766117095947",
+      "chunk=Document(metadata={'chunk_index': 51, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('0a1ef916-40c0-45b6-b9aa-29af8c1b2333'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/GTM All Hands.txt'), 'original_file_name': 'GTM All Hands.txt', 'file_sha1': 'e245680765983f584b5323ddb6b158ebc8b41cce', 'file_size': 58968, 'chunk_size': 312, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='Capability\\n\\nWhat Makes Us Different \\nExamples: \\n\\n\\nManage High Scale and Complexity: PaaS or self-hosted deployment options for maximum control and security \\n\\nFlexible AI Capabilities: Don\u2019t get vendor locked into black box systems and future-proof AI initiatives by bringing any model \\n\\nNeural Hybrid Search: the best of Semantic Vector + Lexical models\\n\\nExpert services and domain expertise in B2B Manufacturing and Distribution\\n\\n\\n\\n\\nCredibility\\n\\nThe \u201cSays who?\u201d in our story.  Proof Points and examples to establish credibility. \\nCould be stating relevant list of customers.\\n\\nExample: \\n\u201cAnd we have incredible customers in your industry like Lenovo, Mouser, CDW and ST across a variety of use cases\u201d\\n\\n\u201cAfter the first full year Fusion was deployed on Lenovo.com, their annual search revenue increased by 95%. \\n\\n\\n\\n\\n\\n\\n\\nClose\\n\\nDependent on situation: First meeting vs. Cold Call.\\n\\nConfirm Alignment: Use as bridge to discovery, goals, etc\u2026\\n\\nAsk for specific action / next step.\\n\\nExample: \u201cWould it be alright if I asked a few questions to understand your priorities in this area and how we might be able to help?\u201d\\n\\n\\n\\n\\n\\nAssignment \\n\\nLearn 5C format.\\nScript Your Pitch. Create a written outline for a credible and effective pitch.\\nPractice alone and rehearse it with peers.\\nRecord yourself delivering a pitch (3 min max) in your own language/5C format. \\nEmail your recording to Jaisy by Thursday, 1/25/2024. \\nMandatory for Sales Org, optional for all else.') distance=0.42006927728652954",
+      "chunk=Document(metadata={'chunk_index': 1, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('82962d00-044b-432a-8ce2-a686f34432f3'), 'qfile_path': PosixPath('drive_txt/Customer Stories (Sommer)/Win Reports/Marketing Touchpoints to Closed Won/Kohler - Marketing Touchpoints.txt'), 'original_file_name': 'Kohler - Marketing Touchpoints.txt', 'file_sha1': '82974fa0f7692726224080c9c4171e441eb552f1', 'file_size': 603, 'chunk_size': 149, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 4}, page_content='Raw link: https://drive.google.com/file/d/1H4n0noffx4F8j0NYeCO7CXgnCzhXuJ3F/view?usp=sharing\\n\\nMarketing Touchpoints Leading to Deal \\n\\nPreet Ahluwalia\\nManager, Digital Technologies\\n\\nOCT\\n\\nZach Telschow: Enterprise Architect and Project Evaluation Lead\\n\\n2018\\n\\nACTIVATE \\n\\n Contact Me:\\nI want to understand how (best practice) an Enterprise Search should to be coming into play in a Microservice Architecture and how lucidworks is helping their customers in this new Microservice Architecture.\\n\\nQuestion Answering and Virtual Assistants with Deep Learning webinar\\n\\nBrian Stone\\nVP, Web Development\\n\\n\\nACTIVATE') distance=0.43443357944488525"
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T18:36:10.709579",
+    "question": "What's a good b2b case study to share with general electric?",
+    "answer": "A good business-to-business case study to share with General Electric is the example of GE Healthcare. The problem they faced was that marketers did not have a way to ideate, collaborate, and share content, with most content being product-focused. The solution was a global asset library that allowed teams to share, repurpose, and reuse content across markets, reducing redundancy and waste. The results were improved content design to serve the customer and assets being shared across teams via a centralized asset library (Source: 5).",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('3a8f0036-6954-41d5-8d6a-470c0a35f5c3'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/DC360 B2B Marketplaces Whitepaper .txt'), 'original_file_name': 'DC360 B2B Marketplaces Whitepaper .txt', 'file_sha1': '08ff2e59e0c30e215eb0d37d2349f5ce76f5d08f', 'file_size': 81767, 'chunk_size': 71, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='CASE STUDIES\\nSHAPECONNECT                                                                                         29\\nA B2B marketplace expands \\nfor business services\\n\\nLIQUIDITY SERVICES INC.                                     \\nA B2B marketplace firm reports \\nrecord gross sales volume\\n\\n33\\n\\nUNILEVER                                                                                                                    35\\nB2B ecommerce is a big digital \\ngrowth driver for Unilever sales') distance=0.3749728500843048",
+      "chunk=Document(metadata={'chunk_index': 16, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('b71df053-5763-49b0-bee3-24985bf2033b'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/1. Commerce Discovery Guide.txt'), 'original_file_name': '1. Commerce Discovery Guide.txt', 'file_sha1': '43443061cf1cb3189520c4e9712ec348f4a8d9b0', 'file_size': 26350, 'chunk_size': 364, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='Client examples in B2B (B2B Case study one sheet)\\n\\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The company wanted to create an omnichannel, personalized search experience for both its sellers and its customers, but it was limited by the capabilities of its Endeca-based search engine. CDW replaced the Endeca engine with Lucidworks Fusion, allowing it to collect and analyze user behavior signals and personalize the search experience for both its sellers and its ecommerce customers. As a result, order conversion rate increased by 3% compared to Endeca, zero-results searches have dropped by 40%, and add-to-cart increased by 10%.\\n\\nLenovo, the number one PC manufacturer in the world, needed to replace search on its website, which serves customers in B2B and B2C markets in over 180 countries who speak 88 different languages. With Fusion\u2019s machine learning capabilities and out-of-the-box tools like rules editor, Lenovo customers\u2019 search results were personalized and relevancy improved dramatically. The first full year Fusion was deployed on Lenovo.com, annual revenue contribution through search increased by 95%. With Fusion signals turned on for just a few months, relevancy improved by 55%\\n\\nMouser is a global top-ten distributor of semiconductors and electronic components with a catalog of over 38M SKUs available for purchase on its website. With a catalog of this size, indexing took 15+ hours daily. After Fusion was implemented, index time was reduced by 50%\u20146 to 8 hours daily\\n\\n\\n\\n\\n\\nV1.1\\n\\n1. COMMERCE EXAMPLE\\n\\nCurrent State\\n\\nDifficulty in finding relevant products due to poor search functionality.\\n\\nInadequate personalization in product recommendations.') distance=0.39858150482177734",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('109095b3-f7a6-4d60-bd08-8bdad12d1e5a'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/April2023 DC360 B2BEcommerceHandbook.txt'), 'original_file_name': 'April2023 DC360 B2BEcommerceHandbook.txt', 'file_sha1': 'e80c1fc780639ffd2d86ac3cca7a84acfbc5c14e', 'file_size': 47801, 'chunk_size': 62, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='10\\n\\nCASE STUDIES\\nDayco                                                                                               \\nHow a manufacturer planned a \\nB2B ecommerce site project\\nChemDirect                                                                                                         16\\nPricing and Shipping: 2 keys to \\nChemDirect\u2019s growth\\nGearSource                                                                                                         20\\nFor GearSource.com, the show must go on') distance=0.40740901231765747",
+      "chunk=Document(metadata={'chunk_index': 1, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('2d068c30-9649-419a-b391-61a70b41ba06'), 'qfile_path': PosixPath('drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks B2B Clients.txt'), 'original_file_name': 'Lucidworks B2B Clients.txt', 'file_sha1': '9c13dfa4caea763e8b2d29f36045c1b0ee0925f1', 'file_size': 116, 'chunk_size': 48, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 16}, page_content='Raw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\\n\\nLucidworks B2B Clients') distance=0.40754425525665283",
+      "chunk=Document(metadata={'chunk_index': 8, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('e95ff253-6b7b-44a5-ba5e-0ec4b98d5c1e'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/Messaging and Positioning Framework - Fusion (2023 Final Copy).txt'), 'original_file_name': 'Messaging and Positioning Framework - Fusion (2023 Final Copy).txt', 'file_sha1': '5492b168ab4380675073b67a55494c5d94c1421b', 'file_size': 49168, 'chunk_size': 271, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 4}, page_content='Sample Headlines:\\n\\nBanks\\n\\nMonetize your growing wealth of information\\n\\nEnable proactive fraud detection with complete 360 oversight and permission-driven security \\n\\nBuild trust and brand loyalty ensuring every touchpoint delivers a unified brand experience\\n\\nInsurance\\n\\nBetter serve policyholders with personal customer support across every channel\\n\\nEmpower financial advisors to serve your policyholders better using their wealth of data. \\n\\nControl of access to sensitive and certain customer data.\\n\\nCreate loyalty-building experiences \\n\\nCapital Markets\\n\\nOptimize customer relationships and asset management using insights uncovered from unstructured and nonstructured data\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nB2B Manufacturing / Distribution\\n\\n\\n\\nProblem Statement:\\n\\nB2B manufacturers are investing more in e-commerce to provide buyers with enhanced buying experiences. Many manufacturers are learning from B2C and modernizing their e-commerce experiences. However, manufacturers face a unique challenge grappling with growing explicit and tacit knowledge across multiple locations. \\n\\n\\n\\nB2B search clients must not only track their products but also the materials, machines, tools, processes, and logistics used to create their products.[5] In addition to this, manufacturers experience supply chain disruptions that are not always transparent as to the reasons for what is affected and why. Data infrastructure fails to keep pace with the massive influx of data generated every day as products move from the field to the fork, or from the plant floor to the final destination.[6]') distance=0.41463708877563477"
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T19:04:56.812797",
+    "question": "what's a good b2b case study?",
+    "answer": "A good B2B case study from the provided context is the one involving Lucidworks and CDW. CDW, a global technology giant, wanted to create an omnichannel, personalized search experience for their sellers and customers but faced limitations with their existing Endeca-based search engine. By replacing it with Lucidworks Fusion, they were able to collect and analyze user behavior signals, which led to a 3% increase in order conversion rates, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions (Source: 4).",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('3a8f0036-6954-41d5-8d6a-470c0a35f5c3'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/DC360 B2B Marketplaces Whitepaper .txt'), 'original_file_name': 'DC360 B2B Marketplaces Whitepaper .txt', 'file_sha1': '08ff2e59e0c30e215eb0d37d2349f5ce76f5d08f', 'file_size': 81767, 'chunk_size': 71, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='CASE STUDIES\\nSHAPECONNECT                                                                                         29\\nA B2B marketplace expands \\nfor business services\\n\\nLIQUIDITY SERVICES INC.                                     \\nA B2B marketplace firm reports \\nrecord gross sales volume\\n\\n33\\n\\nUNILEVER                                                                                                                    35\\nB2B ecommerce is a big digital \\ngrowth driver for Unilever sales') distance=0.314086377620697",
+      "chunk=Document(metadata={'chunk_index': 16, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('b71df053-5763-49b0-bee3-24985bf2033b'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/1. Commerce Discovery Guide.txt'), 'original_file_name': '1. Commerce Discovery Guide.txt', 'file_sha1': '43443061cf1cb3189520c4e9712ec348f4a8d9b0', 'file_size': 26350, 'chunk_size': 364, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 4}, page_content='Client examples in B2B (B2B Case study one sheet)\\n\\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The company wanted to create an omnichannel, personalized search experience for both its sellers and its customers, but it was limited by the capabilities of its Endeca-based search engine. CDW replaced the Endeca engine with Lucidworks Fusion, allowing it to collect and analyze user behavior signals and personalize the search experience for both its sellers and its ecommerce customers. As a result, order conversion rate increased by 3% compared to Endeca, zero-results searches have dropped by 40%, and add-to-cart increased by 10%.\\n\\nLenovo, the number one PC manufacturer in the world, needed to replace search on its website, which serves customers in B2B and B2C markets in over 180 countries who speak 88 different languages. With Fusion\u2019s machine learning capabilities and out-of-the-box tools like rules editor, Lenovo customers\u2019 search results were personalized and relevancy improved dramatically. The first full year Fusion was deployed on Lenovo.com, annual revenue contribution through search increased by 95%. With Fusion signals turned on for just a few months, relevancy improved by 55%\\n\\nMouser is a global top-ten distributor of semiconductors and electronic components with a catalog of over 38M SKUs available for purchase on its website. With a catalog of this size, indexing took 15+ hours daily. After Fusion was implemented, index time was reduced by 50%\u20146 to 8 hours daily\\n\\n\\n\\n\\n\\nV1.1\\n\\n1. COMMERCE EXAMPLE\\n\\nCurrent State\\n\\nDifficulty in finding relevant products due to poor search functionality.\\n\\nInadequate personalization in product recommendations.') distance=0.34789198637008667",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('109095b3-f7a6-4d60-bd08-8bdad12d1e5a'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/April2023 DC360 B2BEcommerceHandbook.txt'), 'original_file_name': 'April2023 DC360 B2BEcommerceHandbook.txt', 'file_sha1': 'e80c1fc780639ffd2d86ac3cca7a84acfbc5c14e', 'file_size': 47801, 'chunk_size': 62, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='10\\n\\nCASE STUDIES\\nDayco                                                                                               \\nHow a manufacturer planned a \\nB2B ecommerce site project\\nChemDirect                                                                                                         16\\nPricing and Shipping: 2 keys to \\nChemDirect\u2019s growth\\nGearSource                                                                                                         20\\nFor GearSource.com, the show must go on') distance=0.3556484580039978",
+      "chunk=Document(metadata={'chunk_index': 9, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('109095b3-f7a6-4d60-bd08-8bdad12d1e5a'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/April2023 DC360 B2BEcommerceHandbook.txt'), 'original_file_name': 'April2023 DC360 B2BEcommerceHandbook.txt', 'file_sha1': 'e80c1fc780639ffd2d86ac3cca7a84acfbc5c14e', 'file_size': 47801, 'chunk_size': 289, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 3}, page_content='3. REVIEW EXISTING TECHNOLOGY\\n\\nUnderstand your existing business technology \\ninfrastructure, including ERP, PIM and other \\ndata management tools, figure out what you \\nneed to add or upgrade, and determine how you \\nneed to integrate these applications with your \\necommerce platform to provide the best online \\ncustomer experience.\\n\\n\u00a9 Copyright 2023 Digital Commerce 360 & Vertical Web Media LLC. All rights reserved. Content published April 2023.\\x0cSPONSORED ARTICLE\\n\\nCREATE A B2C-LIKE  \\nBUYING EXPERIENCE THAT \\nATTRACTS B2B BUYERS\\n\\nAn executive conversation  \\nwith Peter Curran,  \\nchief revenue officer,  \\nLucidworks\\n\\nB2B buyers want the relatively easy, streamlined \\nonline shopping they experience in their personal \\nlives to translate to their professional lives. But \\nB2B selling is far more complicated than the \\nstraightforward nature of B2C. SKU counts are  \\nhigher, products are more complex and payment \\noptions reach far beyond simple credit card \\ntransactions. To discuss how B2B companies can \\ncreate a B2C-like experience for complex B2B \\ntransactions in their effort to attract and retain \\ncustomers, Digital Commerce 360 spoke with \\nPeter Curran, chief revenue officer at Lucidworks. \\n\\nWhat are B2B companies\u2019 biggest  \\nchallenges when trying to meet B2B  \\nbuyer expectations today?') distance=0.36328744888305664",
+      "chunk=Document(metadata={'chunk_index': 8, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('e95ff253-6b7b-44a5-ba5e-0ec4b98d5c1e'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/Messaging and Positioning Framework - Fusion (2023 Final Copy).txt'), 'original_file_name': 'Messaging and Positioning Framework - Fusion (2023 Final Copy).txt', 'file_sha1': '5492b168ab4380675073b67a55494c5d94c1421b', 'file_size': 49168, 'chunk_size': 271, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='Sample Headlines:\\n\\nBanks\\n\\nMonetize your growing wealth of information\\n\\nEnable proactive fraud detection with complete 360 oversight and permission-driven security \\n\\nBuild trust and brand loyalty ensuring every touchpoint delivers a unified brand experience\\n\\nInsurance\\n\\nBetter serve policyholders with personal customer support across every channel\\n\\nEmpower financial advisors to serve your policyholders better using their wealth of data. \\n\\nControl of access to sensitive and certain customer data.\\n\\nCreate loyalty-building experiences \\n\\nCapital Markets\\n\\nOptimize customer relationships and asset management using insights uncovered from unstructured and nonstructured data\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nB2B Manufacturing / Distribution\\n\\n\\n\\nProblem Statement:\\n\\nB2B manufacturers are investing more in e-commerce to provide buyers with enhanced buying experiences. Many manufacturers are learning from B2C and modernizing their e-commerce experiences. However, manufacturers face a unique challenge grappling with growing explicit and tacit knowledge across multiple locations. \\n\\n\\n\\nB2B search clients must not only track their products but also the materials, machines, tools, processes, and logistics used to create their products.[5] In addition to this, manufacturers experience supply chain disruptions that are not always transparent as to the reasons for what is affected and why. Data infrastructure fails to keep pace with the massive influx of data generated every day as products move from the field to the fork, or from the plant floor to the final destination.[6]') distance=0.3706321120262146"
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T19:07:43.342107Z",
+    "question": "What's a good b2c case study to share?",
+    "answer": "Sorry, an error occurred: 'ChatOpenAI' object has no attribute 'get_config'",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-22T19:19:17.633367",
+    "question": "any good case studies?",
+    "answer": "Yes, there are several case studies available in the provided context:\n\n1. **ShapeConnect**: A B2B marketplace expands for business services.  \n   (Source: DC360 B2B Marketplaces Whitepaper .txt)\n\n2. **Liquidity Services Inc.**: A B2B marketplace firm reports record gross sales volume.  \n   (Source: DC360 B2B Marketplaces Whitepaper .txt)\n\n3. **Unilever**: B2B ecommerce is highlighted as a significant digital growth driver for Unilever sales.  \n   (Source: DC360 B2B Marketplaces Whitepaper .txt)\n\n4. **Dayco**: How a manufacturer planned a B2B ecommerce site project.  \n   (Source: April2023 DC360 B2BEcommerceHandbook.txt)\n\n5. **ChemDirect**: Explores pricing and shipping as crucial elements to ChemDirect's growth.  \n   (Source: April2023 DC360 B2BEcommerceHandbook.txt)\n\n6. **GearSource**: Emphasizes the continuity of operations for GearSource.com.  \n   (Source: April2023 DC360 B2BEcommerceHandbook.txt)\n\n7. **Morgan Stanley**: Implemented the \"Next Best Action\" application with Fusion to improve productivity and customer service, resulting in deeper client relationships and increased revenue.  \n   (Source: Lucidworks Value Framework 3.0.txt)\n\n8. **Exxon**: Utilized the Fusion platform to build enterprise-grade applications improving end-user efficiency and reducing analysis time.  \n   (Source: 4. KM Discovery Guide.txt)\n\nThese case studies provide insights into how different organizations have achieved growth, improved efficiency, and enhanced customer engagement through strategic initiatives and technology solutions.",
+    "sources": [
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('69f78b6c-1ea6-4df3-9340-9073791e0183'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/DC360 B2B Marketplaces Whitepaper .txt'), 'original_file_name': 'DC360 B2B Marketplaces Whitepaper .txt', 'file_sha1': '08ff2e59e0c30e215eb0d37d2349f5ce76f5d08f', 'file_size': 81767, 'chunk_size': 71, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 5}, page_content='CASE STUDIES\\nSHAPECONNECT                                                                                         29\\nA B2B marketplace expands \\nfor business services\\n\\nLIQUIDITY SERVICES INC.                                     \\nA B2B marketplace firm reports \\nrecord gross sales volume\\n\\n33\\n\\nUNILEVER                                                                                                                    35\\nB2B ecommerce is a big digital \\ngrowth driver for Unilever sales') distance=0.42603909969329834",
+      "chunk=Document(metadata={'chunk_index': 72, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('69f78b6c-1ea6-4df3-9340-9073791e0183'), 'qfile_path': PosixPath('drive_txt/Highspot Downloads/DC360 B2B Marketplaces Whitepaper .txt'), 'original_file_name': 'DC360 B2B Marketplaces Whitepaper .txt', 'file_sha1': '08ff2e59e0c30e215eb0d37d2349f5ce76f5d08f', 'file_size': 81767, 'chunk_size': 61, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 0}, page_content='What Projects Can We Create?\\n\\nThought Leadership & Custom Research Reports\\n\\nCase Studies\\n\\nBenchmarking Data\\n\\nWebinars\\n\\nCharts & Infographics\\n\\nDigitalCommerce360.com/custom-research-opportunities\\n\\nContact Us\\n\\nWe\u2019ve helped \\ncountless businesses \\nturn their research \\nvision into a reality  \\n\\n\\x0c45') distance=0.4330431818962097",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('e167d0b6-b158-4ae9-a24e-30f2cc9a6595'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/3. Service & Support Discovery Guide.txt'), 'original_file_name': '3. Service & Support Discovery Guide.txt', 'file_sha1': '88aa505ad001a3cd8db94870b848e5894f11437d', 'file_size': 10355, 'chunk_size': 343, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 6}, page_content='Increase in case volume, burden, cost, and time to resolution\\n\\nDecreased agent productivity spreads employee frustration internally and externally, and employees feel less productive and empowered, making them emotionally compromised \\n\\nFuture State\\n\\nDescribe the \"To Be\" ideal scenario\\n\\nAgents who have access to the correct answers are more empowered, faster, more efficient, and closing cases faster. Improved agent experience, high ESAT\\n\\nCustomer questions/issues are resolved quickly in a self-service manner, case creation can be avoided, and cases are routed/deflected to the correct department when escalated \\n\\nImproved customer experience, high CSAT\\n\\nPositive Business Outcomes\\n\\nDescribe the \"good things\" that happen as a result of the future state\\n\\nCase volume decreased, lowering the burden, hassle, and cost of managing cases and lowering the time to resolution for customers\\n\\nAgents are more productive and feel happier, staying at the company longer and spreading better morale to other employees and externally\\n\\nCustomer NPS and CSAT improve, leading to greater revenue share and less churn  \\n\\nRequired Capabilities\\n\\nWhat are the specific needs that a potential customer requires to solve the challenges/drive the business outcomes? Could be people, process, and technology related. \\n\\nAI-powered relevancy to solve intent issues more quickly \\n\\nRobust set of connectors to integrate with multiple data systems / ingest diverse sets of data  \\n\\nReal-time insights for agents \\n\\nRecommended cases to solve customers\\' problems in real-time \\n\\nIntelligent answer generation \\n\\nReusing knowledge that has already been established/used/provided\\n\\nMetrics\\n\\nHow would they measure key business impacts? \\n\\nCase volume decreases \\n\\nTime to close on tickets\\n\\nHigh-value clients receive more and better support, while lower-value clients more effectively self-serve') distance=0.43346598744392395",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('912937c5-30fa-4123-8dd2-c1ad07eb121a'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/0. [ALL] Discovery Guide Worksheets - Guy.txt'), 'original_file_name': '0. [ALL] Discovery Guide Worksheets - Guy.txt', 'file_sha1': '27e686134556ce540684b0030a3c75395c740fc2', 'file_size': 23714, 'chunk_size': 330, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 1}, page_content='What evidence do we have? Can be in the form of a customer story, reference to an analyst report,and/or  research we\u2019ve conducted, etc.  \\n\\n \\n\\n  \\n\\n\\n\\n\\n\\n1. COMMERCE EXAMPLE\\n\\nCurrent State\\n\\nDifficulty in finding relevant products due to poor search functionality.\\n\\nInadequate personalization in product recommendations.\\n\\nInability to efficiently navigate through a vast product catalog.\\n\\nTakes too long to create product assortments when new trends emerge.\\n\\nInability to make timely changes in inventory, affecting responsiveness.\\n\\nNegative Consequences\\n\\nLower conversion rates and average order values, impacting overall sales and revenue.\\n\\nIncreased likelihood of customers turning to competitors with better online experiences.\\n\\nInefficiency in leveraging inventory and trends, resulting in missed sales opportunities.\\n\\nWeak analytics, limiting the ability to understand and cater to customer preferences and behaviors.\\n\\nFuture State\\n\\nEnhanced search functionality leading to more relevant and accurate product discovery.\\n\\nImproved personalization in product recommendations tailored to individual customer preferences.\\n\\nEfficient navigation and exploration of a diverse product catalog.\\n\\nIncreased productivity and job satisfaction among merchandisers, especially in commerce.\\n\\nEffective management of trending products and timely inventory updates.\\n\\nPositive Business Outcomes\\n\\nIncreased customer satisfaction and loyalty due to a more intuitive and efficient shopping experience.\\n\\nHigher conversion rates as customers can find and purchase products more easily.\\n\\nGrowth in average order value stemming from effective product recommendations.\\n\\nEnhanced brand reputation and customer trust through a seamless and personalized shopping journey.\\n\\nBetter use of data analytics for understanding customer behavior, leading to more strategic inventory and marketing decisions.\\n\\nRequired Capabilities\\n\\nContinuous, real-time, and automatic curation of results using AI/ML, with or without data scientists') distance=0.4367220997810364",
+      "chunk=Document(metadata={'chunk_index': 2, 'quivr_core_version': '0.0.26', 'qfile_id': UUID('a017f3dd-aaa6-4166-94ea-a5972a656539'), 'qfile_path': PosixPath('drive_txt/RevOps + Enablement  (Jaisy)/Value Framework/Discovery Guide/Discovery Guide Workshops/0. [ALL] Discovery Guide Worksheets.txt'), 'original_file_name': '0. [ALL] Discovery Guide Worksheets.txt', 'file_sha1': 'ae9b6dfe53cd5051719671a1db057584504ccfd5', 'file_size': 21884, 'chunk_size': 330, 'processor_cls': 'TextLoader', 'splitter': {'chunk_size': 400, 'chunk_overlap': 100}, 'index': 2}, page_content='What evidence do we have? Can be in the form of a customer story, reference to an analyst report,and/or  research we\u2019ve conducted, etc.  \\n\\n \\n\\n  \\n\\n\\n\\n\\n\\n1. COMMERCE EXAMPLE\\n\\nCurrent State\\n\\nDifficulty in finding relevant products due to poor search functionality.\\n\\nInadequate personalization in product recommendations.\\n\\nInability to efficiently navigate through a vast product catalog.\\n\\nTakes too long to create product assortments when new trends emerge.\\n\\nInability to make timely changes in inventory, affecting responsiveness.\\n\\nNegative Consequences\\n\\nLower conversion rates and average order values, impacting overall sales and revenue.\\n\\nIncreased likelihood of customers turning to competitors with better online experiences.\\n\\nInefficiency in leveraging inventory and trends, resulting in missed sales opportunities.\\n\\nWeak analytics, limiting the ability to understand and cater to customer preferences and behaviors.\\n\\nFuture State\\n\\nEnhanced search functionality leading to more relevant and accurate product discovery.\\n\\nImproved personalization in product recommendations tailored to individual customer preferences.\\n\\nEfficient navigation and exploration of a diverse product catalog.\\n\\nIncreased productivity and job satisfaction among merchandisers, especially in commerce.\\n\\nEffective management of trending products and timely inventory updates.\\n\\nPositive Business Outcomes\\n\\nIncreased customer satisfaction and loyalty due to a more intuitive and efficient shopping experience.\\n\\nHigher conversion rates as customers can find and purchase products more easily.\\n\\nGrowth in average order value stemming from effective product recommendations.\\n\\nEnhanced brand reputation and customer trust through a seamless and personalized shopping journey.\\n\\nBetter use of data analytics for understanding customer behavior, leading to more strategic inventory and marketing decisions.\\n\\nRequired Capabilities\\n\\nContinuous, real-time, and automatic curation of results using AI/ML, with or without data scientists') distance=0.4367220997810364"
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T19:54:10.454035Z",
+    "question": "What's a good case study to share that is b2b centric?",
+    "answer": "Sorry, an error occurred: 'QuivrCompatibleChatOpenAI' object has no attribute '_llm'",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-22T20:13:08.888689Z",
+    "question": "What's a good b2b case study to send?",
+    "answer": "Sorry, error processing query: 'QuivrCompatibleChatOpenAI' object has no attribute '_llm'",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-22T20:32:34.904952Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the one involving CDW, a global technology giant. CDW improved its omnichannel, personalized search experience by replacing its Endeca-based search engine with Lucidworks Fusion. This change led to several positive outcomes, including a 3% increase in order conversion rate, a 40% reduction in zero-results searches, and a 10% increase in add-to-cart actions. This case study illustrates the effectiveness of modernizing search functionalities to enhance customer experience and drive business growth. \n\nSource: 1",
+    "main_recommendation": {
+      "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+      "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing",
+      "preview_info": "CASE STUDIES\nSHAPECONNECT                                                                                         29\nA B2B marketplace expands \nfor business services\n\nLIQUIDITY SERVICES INC.          ..."
+    },
+    "sources": [
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "GTM All Hands.txt",
+        "link": "https://drive.google.com/file/d/1n3FDnJx7dfmhNleWnlsYKpjGyIiKgcqG/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T20:58:15.513202Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "Sorry, error processing query: Brain.aask() got an unexpected keyword argument 'top_k'",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-22T22:21:36.807468Z",
+    "question": "Do we have any good b2b case studies I can share?",
+    "answer": "Yes, there are several B2B case studies available in the provided context:\n\n1. **ShapeConnect**: A B2B marketplace for business services that reported rapid growth since 2020 as companies sought new business connections during the pandemic. It illustrates the success of an online platform in connecting buyers and sellers of services. [Source: DC360 B2B Marketplaces Whitepaper .txt]\n\n2. **Unilever**: B2B ecommerce is highlighted as a significant digital growth driver for Unilever, contributing to its sales expansion. This case study emphasizes the role of digital platforms in enhancing B2B sales. [Source: DC360 B2B Marketplaces Whitepaper .txt]\n\n3. **Dayco**: A manufacturer that planned a B2B ecommerce site project, showcasing the process and considerations involved in setting up an online platform for B2B transactions. [Source: April2023 DC360 B2BEcommerceHandbook.txt]\n\n4. **ChemDirect**: Focuses on pricing and shipping strategies as keys to its growth, demonstrating the importance of logistics and cost management in B2B ecommerce success. [Source: April2023 DC360 B2BEcommerceHandbook.txt]\n\nThese case studies can be shared to illustrate various successful approaches in the B2B marketplace and ecommerce sectors.",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-22T22:37:36.944134Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good business-to-business (B2B) case study to share is the example of Lenovo. Lenovo, a leading PC manufacturer, implemented Lucidworks Fusion to replace its existing search system. This allowed Lenovo to personalize search results for its B2B and B2C customers across more than 180 countries, significantly improving relevancy. In the first full year of deploying Fusion, Lenovo's annual revenue contribution through search increased by 95% (Source: 4).",
+    "main_recommendation": {
+      "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+      "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing",
+      "preview_info": "CASE STUDIES\nSHAPECONNECT                                                                                         29\nA B2B marketplace expands \nfor business services\n\nLIQUIDITY SERVICES INC...."
+    },
+    "sources": [
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "GTM All Hands.txt",
+        "link": "https://drive.google.com/file/d/1n3FDnJx7dfmhNleWnlsYKpjGyIiKgcqG/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T22:38:49.955780Z",
+    "question": "What's a good b2c case study I can share?",
+    "answer": "I don't have the answer to your question about a B2C case study using only the provided context.",
+    "main_recommendation": {
+      "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+      "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing",
+      "preview_info": "CASE STUDIES\nSHAPECONNECT                                                                                         29\nA B2B marketplace expands \nfor business services\n\nLIQUIDITY SERVICES INC...."
+    },
+    "sources": [
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Value Framework 3.0.txt",
+        "link": "https://drive.google.com/file/d/1CKzvhpSaLMXZIzHOaCgrBuyDwMFZM4hk/view?usp=sharing"
+      },
+      {
+        "filename": "0. [ALL] Discovery Guide Worksheets - Guy.txt",
+        "link": "https://drive.google.com/file/d/1h-n1l1c-i45A7Zb34UFk8FdoGJlWdObI/view?usp=sharing"
+      },
+      {
+        "filename": "0. [ALL] Discovery Guide Worksheets.txt",
+        "link": "https://drive.google.com/file/d/1h-n1l1c-i45A7Zb34UFk8FdoGJlWdObI/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T22:47:55.330295Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the example of Lenovo. Lenovo, the world's leading PC manufacturer, needed to enhance the search functionality on its website, which serves customers in both B2B and B2C markets across more than 180 countries. By integrating Lucidworks Fusion, Lenovo leveraged machine learning capabilities and tools like a rules editor to personalize search results and significantly improve relevancy. As a result, Lenovo experienced a 95% increase in annual revenue contribution through search in the first full year of deploying Fusion on their site. Additionally, relevancy improved by 55% with Fusion signals activated for just a few months (Source: 0).",
+    "main_recommendation": null,
+    "sources": [
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T22:56:44.498382Z",
+    "question": "What's a good b2b case study i can share?",
+    "answer": "A good B2B case study to share is the implementation of Lucidworks Fusion by CDW, a global technology giant. CDW replaced its Endeca-based search engine with Lucidworks Fusion to enhance its omnichannel, personalized search experience for both sellers and ecommerce customers. This transition allowed CDW to analyze user behavior signals and personalize the search experience, leading to a 3% increase in order conversion rates, a 40% reduction in zero-results searches, and a 10% increase in add-to-cart actions. This case study highlights the impact of modernizing search capabilities on business performance (Source 0).",
+    "main_recommendation": null,
+    "sources": [
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-22T23:33:12.908974Z",
+    "question": "what's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the one involving Lenovo. As the number one PC manufacturer, Lenovo needed to improve the search functionality on its website, which serves customers in both B2B and B2C markets across more than 180 countries. By implementing Lucidworks Fusion with machine learning capabilities and tools like a rules editor, Lenovo significantly personalized search results and improved relevancy. In the first full year of deploying Fusion, the annual revenue contribution through search increased by 95%, and relevancy improved by 55% after just a few months with Fusion signals turned on. This showcases the impact of integrating advanced search technologies to enhance customer experience and drive business growth.",
+    "main_recommendation": null,
+    "sources": [
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T15:12:01.039343Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is about the global technology giant CDW. CDW wanted to create an omnichannel, personalized search experience for both its sellers and its customers. They were limited by the capabilities of their Endeca-based search engine. CDW replaced the Endeca engine with Lucidworks Fusion, which allowed them to collect and analyze user behavior signals and personalize the search experience. As a result, CDW saw a 3% increase in order conversion rate, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions (Source: 3).",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.txt",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "sources": [
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T16:12:58.006199Z",
+    "question": "what's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the example of Lenovo, which implemented Lucidworks Fusion to improve its search functionality on their website. Serving customers in both B2B and B2C markets, Lenovo needed a robust search solution to cater to its diverse audience across 180 countries and 88 languages. With Fusion's machine learning capabilities and tools like the rules editor, Lenovo significantly personalized search results and improved relevancy. This resulted in a 95% increase in annual revenue contribution through search in the first full year of deployment, and relevancy improved by 55% within just a few months of activating Fusion signals.\n\nThis case study demonstrates the importance of personalized and relevant search experiences in driving business outcomes and customer satisfaction in the B2B space.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.txt",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "sources": [
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T16:21:34.876535Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is about Lenovo. As the number one PC manufacturer in the world, Lenovo needed to enhance its website search capabilities to better serve its B2B and B2C customers in over 180 countries. By deploying Lucidworks Fusion, Lenovo was able to personalize search results and significantly improve relevancy. In the first full year of using Fusion, Lenovo saw a 95% increase in annual revenue contribution through search, and relevancy improved by 55% shortly after Fusion signals were activated. This case study showcases the impact of using advanced search technologies to drive business growth and customer satisfaction in a global B2B context.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.txt",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "sources": [
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .txt",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.txt",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T16:27:46.556044Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is about Lenovo's implementation of Lucidworks Fusion. Lenovo, a leading PC manufacturer, needed to enhance the search functionality on its website, which caters to B2B and B2C markets in over 180 countries and supports 88 languages. By leveraging Fusion\u2019s machine learning capabilities and tools like the rules editor, Lenovo significantly improved the personalization and relevancy of search results. In the first full year of using Fusion, Lenovo saw a 95% increase in annual revenue contribution through search, and relevancy improved by 55% within just a few months of having Fusion signals turned on. This case study effectively demonstrates the impact of modernizing content and product discovery technology in a complex B2B environment.",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-23T16:36:42.820517Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "Unexpected query error.",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-23T16:38:51.660384Z",
+    "question": "Whats a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the example of Lenovo. Lenovo, a leading PC manufacturer, implemented Lucidworks Fusion to enhance its website's search functionality, which serves both B2B and B2C markets across over 180 countries. By leveraging Fusion\u2019s machine learning capabilities and tools like the rules editor, Lenovo significantly improved the personalization and relevancy of search results. In the first year of deploying Fusion on Lenovo.com, the annual revenue contribution through search increased by 95%, and relevancy improved by 55% with Fusion signals activated for a few months. This case study highlights the impact of advanced search technology in driving business growth and customer satisfaction (Source: 0).",
+    "main_recommendation": null,
+    "sources": []
+  },
+  {
+    "timestamp": "2025-04-23T16:41:49.737856Z",
+    "question": "What's a good case study to share for a B2B account?",
+    "answer": "A good case study to share for a B2B account is the example of Lenovo. As the number one PC manufacturer in the world, Lenovo needed to enhance its website's search capabilities to serve its customers across B2B and B2C markets in over 180 countries and 88 languages. By implementing Lucidworks Fusion, Lenovo improved the personalization and relevancy of search results. The first year after deploying Fusion, annual revenue contribution through search increased by 95%, and relevancy improved by 55% with Fusion signals. This demonstrates the significant impact of modernizing search functionalities in B2B ecommerce ([source 0](#)).",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.txt",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "sources": [
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T16:54:53.499645Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is about Lenovo, the number one PC manufacturer in the world. Lenovo needed to replace the search functionality on its website, which serves customers in both B2B and B2C markets across over 180 countries in 88 different languages. By implementing Lucidworks Fusion, Lenovo was able to utilize machine learning capabilities and out-of-the-box tools like a rules editor, which significantly improved the personalization and relevance of search results. In the first full year after deploying Fusion on Lenovo.com, annual revenue contribution through search increased by 95%. Additionally, with Fusion signals turned on for just a few months, the relevancy of search results improved by 55% (Source: 3).",
+    "main_recommendation": {
+      "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+      "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing",
+      "preview_info": "3. REVIEW EXISTING TECHNOLOGY\n\nUnderstand your existing business technology \ninfrastructure, including ERP, PIM and other \ndata management tools, figure out what you \nneed to add or upgrade, and deter..."
+    },
+    "sources": [
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.txt",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:08:33.852747Z",
+    "question": "what's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is about Lenovo's implementation of Lucidworks Fusion. Lenovo, a leading PC manufacturer serving B2B and B2C markets in over 180 countries, needed to enhance its website search capabilities. By deploying Fusion\u2019s machine learning tools, Lenovo personalized its search results and significantly improved relevancy. As a result, in the first full year after deployment, annual revenue contribution through search increased by 95%, and relevancy improved by 55% after just a few months with Fusion signals turned on. This case study demonstrates the effective use of technology to improve customer experience and drive substantial business growth.",
+    "main_recommendation": {
+      "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).txt",
+      "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing",
+      "preview_info": "Capital Markets\n\nOptimize customer relationships and asset management using insights uncovered from unstructured and nonstructured data\n\nB2B Manufacturing / Distribution\n\nProblem Statement:\n\nB2B manuf..."
+    },
+    "sources": [
+      {
+        "filename": "1. Commerce Discovery Guide.txt",
+        "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.txt",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .txt",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:18:26.338792Z",
+    "question": "What's a good B2B Case study to share?",
+    "answer": "Error: Failed to process query.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T17:21:55.888744Z",
+    "question": "What's a good B2B Case study to share?",
+    "answer": "A good B2B case study to share is the example of CDW, a global technology giant. CDW wanted to create an omnichannel, personalized search experience for both its sellers and customers but was limited by its Endeca-based search engine. By replacing Endeca with Lucidworks Fusion, CDW was able to collect and analyze user behavior signals, personalizing the search experience. This led to a 3% increase in order conversion rate, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "Lucidworks B2B Clients.pptx",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Value Framework 3.0.docx",
+        "link": "https://drive.google.com/file/d/1CKzvhpSaLMXZIzHOaCgrBuyDwMFZM4hk/view?usp=sharing"
+      },
+      {
+        "filename": "NewsCred Discovery Guide.pdf",
+        "link": "https://drive.google.com/file/d/1vXoSz_68teR7wyC_NaZaKR8tnpgUwvF4/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:22:49.035762Z",
+    "question": "What about any good B2C Case studies?",
+    "answer": "I don't have enough information. The provided context only includes a B2B case study involving CDW and does not mention any B2C case studies.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.pdf",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .pdf",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.pdf",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:23:12.836079Z",
+    "question": "What's a good B2C Case study to share?",
+    "answer": "I don't have enough information. The provided context only includes B2B case studies.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "Lucidworks Value Framework 3.0.docx",
+        "link": "https://drive.google.com/file/d/1CKzvhpSaLMXZIzHOaCgrBuyDwMFZM4hk/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .pdf",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.pdf",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:29:48.126059Z",
+    "question": "What's a good B2B case study to share?",
+    "answer": "A good B2B case study to share is the example of CDW, a global technology giant. CDW wanted to create an omnichannel, personalized search experience for its sellers and customers but was limited by its Endeca-based search engine. By replacing Endeca with Lucidworks Fusion, CDW was able to collect and analyze user behavior signals, personalizing the search experience. This led to a 3% increase in order conversion rate, a 40% drop in zero-results searches, and a 10% increase in add-to-cart actions.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .pdf",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Value Framework 3.0.docx",
+        "link": "https://drive.google.com/file/d/1CKzvhpSaLMXZIzHOaCgrBuyDwMFZM4hk/view?usp=sharing"
+      },
+      {
+        "filename": "NewsCred Discovery Guide.pdf",
+        "link": "https://drive.google.com/file/d/1vXoSz_68teR7wyC_NaZaKR8tnpgUwvF4/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.pdf",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "GTM All Hands.pptx",
+        "link": "https://drive.google.com/file/d/1n3FDnJx7dfmhNleWnlsYKpjGyIiKgcqG/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.pptx",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:30:14.747769Z",
+    "question": "What about a good b2c case study?",
+    "answer": "I don't have enough information about a B2C case study in the provided context. The context only includes a B2B case study involving CDW.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .pdf",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "0. [ALL] Discovery Guide Worksheets.docx",
+        "link": "https://drive.google.com/file/d/1M4wAruq2UUdZyLY2a2K_KH5LAmYuQpCd/view?usp=sharing"
+      },
+      {
+        "filename": "B2B eCommerce Design for B2C Experiences, Interview with Peter Curran .pdf",
+        "link": "https://drive.google.com/file/d/10NMn_1u4gx2FCWCSWRCE3ghTxtjAdSqe/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.pptx",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.pdf",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:37:23.677592Z",
+    "question": "What's a good pitch deck to share for an upcoming meet with Seimens?",
+    "answer": "Error: Failed to process query.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T17:37:39.532104Z",
+    "question": "What about a good B2B Case study?",
+    "answer": "Error: Failed to process query.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T17:41:04.914478Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the example of CDW, a global technology giant. CDW wanted to create an omnichannel, personalized search experience for both its sellers and customers but was limited by its Endeca-based search engine. By replacing Endeca with Lucidworks Fusion, CDW was able to collect and analyze user behavior signals and personalize the search experience. This led to a 3% increase in order conversion rate, a 40% reduction in zero-results searches, and a 10% increase in add-to-cart actions.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .pdf",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Value Framework 3.0.docx",
+        "link": "https://drive.google.com/file/d/1CKzvhpSaLMXZIzHOaCgrBuyDwMFZM4hk/view?usp=sharing"
+      },
+      {
+        "filename": "NewsCred Discovery Guide.pdf",
+        "link": "https://drive.google.com/file/d/1vXoSz_68teR7wyC_NaZaKR8tnpgUwvF4/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.pdf",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "GTM All Hands.pptx",
+        "link": "https://drive.google.com/file/d/1n3FDnJx7dfmhNleWnlsYKpjGyIiKgcqG/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.pptx",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T17:41:59.753280Z",
+    "question": "What about a B2C study?",
+    "answer": "I don't have enough information on a B2C case study from the provided context.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "CE Product Enablement _ LW AI _Dec 5-6 2024.pptx",
+        "link": "https://drive.google.com/file/d/1iXaHp1mhSW0cdT-XKkFGLFqIh_xkAb9b/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .pdf",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Copy of eStaff Competitor Review Oct 24 2024.pptx",
+        "link": "https://drive.google.com/file/d/1ChaIIUq58eBjreY6TniSTDQpD6DoXgPZ/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.pdf",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T18:20:19.538073Z",
+    "question": "Whats a good b2b case study to share",
+    "answer": "A good B2B case study to share is the one involving CDW, a global technology giant. CDW wanted to enhance its omnichannel, personalized search experience but was limited by its existing Endeca-based search engine. By replacing it with Lucidworks Fusion, CDW was able to collect and analyze user behavior signals, leading to a 3% increase in order conversion rate, a 40% reduction in zero-results searches, and a 10% increase in add-to-cart actions. This case study highlights the impact of upgrading search technology to improve customer experience and business outcomes.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .pdf",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "NewsCred Discovery Guide.pdf",
+        "link": "https://drive.google.com/file/d/1vXoSz_68teR7wyC_NaZaKR8tnpgUwvF4/view?usp=sharing"
+      },
+      {
+        "filename": "GTM All Hands.pptx",
+        "link": "https://drive.google.com/file/d/1n3FDnJx7dfmhNleWnlsYKpjGyIiKgcqG/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Clients.pptx",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Value Framework 3.0.docx",
+        "link": "https://drive.google.com/file/d/1CKzvhpSaLMXZIzHOaCgrBuyDwMFZM4hk/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T18:21:19.396597Z",
+    "question": "What about a good b2c case study? Something from a company that specializes in retail commerce.",
+    "answer": "The context does not provide a specific B2C case study from a company specializing in retail commerce.",
+    "main_recommendation": {
+      "filename": "1. Commerce Discovery Guide.docx",
+      "link": "https://drive.google.com/file/d/1hZlA-e2DRthzIhrks6gNA1IiapLSHWRQ/view?usp=sharing",
+      "preview_info": "Client examples in B2B (B2B Case study one sheet)\n\nGlobal technology giant CDW has a catalog that includes thousands of brands and a diverse inventory of products from laptops to datacenters. The comp..."
+    },
+    "other_sources": [
+      {
+        "filename": "Who, What, Win Report - Mouser Electronics - Endeca Replacement.docx",
+        "link": "https://drive.google.com/file/d/1xApftkR4kzuF-153nMvtl3BiGihPr1bJ/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 Sponsored Report- B2B eCommerce Design for B2C Experiences, Lucidworks Branded.pdf",
+        "link": "https://drive.google.com/file/d/1d0Eb0Uki6z2wDep_zpqEkNb0CWdXJRnz/view?usp=sharing"
+      },
+      {
+        "filename": "Messaging and Positioning Framework - Fusion (2023 Final Copy).docx",
+        "link": "https://drive.google.com/file/d/11O4DexOvuZVtI2Q6sqnFFRBJFp_1yTZv/view?usp=sharing"
+      },
+      {
+        "filename": "0. [ALL] Discovery Guide Worksheets - Guy.docx",
+        "link": "https://drive.google.com/file/d/1h-n1l1c-i45A7Zb34UFk8FdoGJlWdObI/view?usp=sharing"
+      },
+      {
+        "filename": "DC360 B2B Marketplaces Whitepaper .pdf",
+        "link": "https://drive.google.com/file/d/1ltjrEMsfni6alN-2nRKwTxQmKPKkDPxm/view?usp=sharing"
+      },
+      {
+        "filename": "Value Engineering.pptx",
+        "link": "https://drive.google.com/file/d/1w7ew-Bv_U4X0ArbZhqEXeej8TIOlrUAV/view?usp=sharing"
+      },
+      {
+        "filename": "April2023 DC360 B2BEcommerceHandbook.pdf",
+        "link": "https://drive.google.com/file/d/1UoBOarhH8MzrPOzFbcmCGIp_m3VihiUI/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T19:23:56.447443Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T19:28:28.953217Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T19:44:22.832872Z",
+    "question": "what's a good case study to share for b2B?",
+    "answer": "I don't have enough information to provide a specific case study for B2B.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T19:58:38.489885Z",
+    "question": "what's a good b2b case study to share?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T20:00:24.810008Z",
+    "question": "What's a good B2B Case study to share?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T20:01:03.462680Z",
+    "question": "good b2b case study?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T21:57:08.370614Z",
+    "question": "What's a good b2b case study?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T21:58:57.880695Z",
+    "question": "What is a good B2B case study to share?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T22:08:46.957960Z",
+    "question": "What's a good b2b case study",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T22:11:10.516225Z",
+    "question": "Whats a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the one involving CDW. CDW, a global technology giant, faced challenges with its Endeca-based search engine, which limited its ability to provide an omnichannel, personalized search experience for its sellers and B2B buyers. By replacing the Endeca engine with Lucidworks search, CDW was able to collect and analyze user behavior signals to personalize the search experience. This resulted in a 3% increase in order conversion rate, a 40% reduction in zero-result searches, and a 10% increase in add-to-cart actions.",
+    "main_recommendation": {
+      "filename": "Lucidworks B2B Clients.pptx",
+      "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing",
+      "preview_info": "Source Document: Lucidworks B2B Clients.pptx\nRaw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\n\nLucidworks B2B Clients..."
+    },
+    "other_sources": [
+      {
+        "filename": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1i62EXUyRc-GHzgkkD0t3m-gC6rp28QiD/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Lenovo Case Study.pdf",
+        "link": "https://drive.google.com/file/d/1eSqxz2FmpFurrnuviBxvRQfsld05imq6/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T22:26:39.969430Z",
+    "question": "what's a good b2b case study?",
+    "answer": "I don't have enough information to provide a specific B2B case study.",
+    "main_recommendation": null,
+    "other_sources": []
+  },
+  {
+    "timestamp": "2025-04-23T22:36:09.118933Z",
+    "question": "What's a good b2b case study",
+    "answer": "I don't have enough information to determine what constitutes a \"good\" B2B case study from the provided context. However, the context does mention case studies involving companies like CDW and Crate & Barrel, which detail the problems they faced and the solutions provided by Lucidworks to improve their search and discovery experiences.",
+    "main_recommendation": {
+      "filename": "Lucidworks B2B Clients.pptx",
+      "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing",
+      "preview_info": "Source Document: Lucidworks B2B Clients.pptx\nRaw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\n\nLucidworks B2B Clients..."
+    },
+    "other_sources": [
+      {
+        "filename": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1i62EXUyRc-GHzgkkD0t3m-gC6rp28QiD/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Lenovo Case Study.pdf",
+        "link": "https://drive.google.com/file/d/1eSqxz2FmpFurrnuviBxvRQfsld05imq6/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T22:57:23.753639Z",
+    "question": "What's a strong B2B Case Study I can share for an upcoming sales pitch?",
+    "answer": "A strong B2B case study you can share is the one involving CDW. CDW, a global technology giant, faced challenges with its Endeca-based search engine, which limited its ability to create an omnichannel, personalized search experience for its sellers and B2B buyers. By replacing the Endeca engine with Lucidworks search, CDW was able to collect and analyze user behavior signals to personalize the search experience. This resulted in a 3% increase in order conversion rate, a 40% reduction in zero-result searches, and a 10% increase in add-to-cart actions. This case study highlights the positive business outcomes of better performance, improved user experience, and increased revenue.",
+    "main_recommendation": {
+      "filename": "Lucidworks B2B Clients.pptx",
+      "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing",
+      "preview_info": "Source Document: Lucidworks B2B Clients.pptx\nRaw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\n\nLucidworks B2B Clients..."
+    },
+    "other_sources": [
+      {
+        "filename": "Win Report - TE Connectivity.pptx",
+        "link": "https://drive.google.com/file/d/1acFgcRuR7jew2rYyBL6vdFEp0_N7J1K2/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing"
+      },
+      {
+        "filename": "Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.docx",
+        "link": "https://drive.google.com/file/d/1UgdDMJxYQxQemLjJ8vxyPzto881EwPou/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T23:09:20.773455Z",
+    "question": "What's a good B2B Case Study to share?",
+    "answer": "A good B2B case study to share is the one involving CDW, a global technology giant. CDW wanted to create an omnichannel, personalized search experience for both its sellers and its B2B buyers but was limited by its Endeca-based search engine. The solution was to replace the Endeca engine with Lucidworks search, which collected and analyzed user behavior signals to personalize the search experience. This resulted in a 3% increase in order conversion rate, a 40% reduction in zero-result searches, and a 10% increase in add-to-cart actions.",
+    "main_recommendation": {
+      "filename": "Lucidworks B2B Clients.pptx",
+      "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing",
+      "preview_info": "Source Document: Lucidworks B2B Clients.pptx\nRaw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\n\nLucidworks B2B Clients..."
+    },
+    "other_sources": [
+      {
+        "filename": "Win Report - TE Connectivity.pptx",
+        "link": "https://drive.google.com/file/d/1acFgcRuR7jew2rYyBL6vdFEp0_N7J1K2/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing"
+      },
+      {
+        "filename": "Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.docx",
+        "link": "https://drive.google.com/file/d/1UgdDMJxYQxQemLjJ8vxyPzto881EwPou/view?usp=sharing"
+      },
+      {
+        "filename": "Mouser - Marketing Touchpoints.pptx",
+        "link": "https://drive.google.com/file/d/17mkIK12zRezen7KThuG2T64x2yicUwoF/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1i62EXUyRc-GHzgkkD0t3m-gC6rp28QiD/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Exxon.pptx",
+        "link": "https://drive.google.com/file/d/14XLTrV0TF-FeAIb-AW-Ca46kX8hrij3q/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Toyota.pptx",
+        "link": "https://drive.google.com/file/d/1c_UWwCWT42qg6YxcGTfXq8MqHwW02L51/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Lenovo.pptx",
+        "link": "https://drive.google.com/file/d/14AUoZ2xGQIVZazXdScm3r6dPyjwPwxRv/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-23T23:13:23.216305Z",
+    "question": "What's a good b2b Case study?",
+    "answer": "The context provides a case study of CDW, a global technology giant, which faced challenges with its Endeca-based search engine. CDW wanted to create an omnichannel, personalized search experience for its sellers and B2B buyers. The solution was to replace the Endeca engine with Lucidworks search, which collects and analyzes user behavior signals to personalize the search experience. This resulted in a 3% increase in order conversion rate, a 40% reduction in zero-result searches, and a 10% increase in add-to-cart actions. This case study highlights the positive business outcomes of better performance, improved user experience, and increased revenue.",
+    "main_recommendation": {
+      "filename": "Lucidworks B2B Clients.pptx",
+      "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing",
+      "preview_info": "Source Document: Lucidworks B2B Clients.pptx\nRaw link: https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing\n\nLucidworks B2B Clients..."
+    },
+    "other_sources": [
+      {
+        "filename": "Win Report - TE Connectivity.pptx",
+        "link": "https://drive.google.com/file/d/1acFgcRuR7jew2rYyBL6vdFEp0_N7J1K2/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing"
+      },
+      {
+        "filename": "Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.docx",
+        "link": "https://drive.google.com/file/d/1UgdDMJxYQxQemLjJ8vxyPzto881EwPou/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Lenovo.pptx",
+        "link": "https://drive.google.com/file/d/14AUoZ2xGQIVZazXdScm3r6dPyjwPwxRv/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Exxon.pptx",
+        "link": "https://drive.google.com/file/d/14XLTrV0TF-FeAIb-AW-Ca46kX8hrij3q/view?usp=sharing"
+      },
+      {
+        "filename": "Mouser - Marketing Touchpoints.pptx",
+        "link": "https://drive.google.com/file/d/17mkIK12zRezen7KThuG2T64x2yicUwoF/view?usp=sharing"
+      },
+      {
+        "filename": "Lucidworks Commerce Customer Case Studies One Sheet.pdf",
+        "link": "https://drive.google.com/file/d/1i62EXUyRc-GHzgkkD0t3m-gC6rp28QiD/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Toyota.pptx",
+        "link": "https://drive.google.com/file/d/1c_UWwCWT42qg6YxcGTfXq8MqHwW02L51/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-24T21:33:06.473903Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the one involving CDW. The case study highlights how Lucidworks helped CDW, a global technology giant, improve its search experience. CDW wanted to create an omnichannel, personalized search experience for both its sellers and B2B buyers but was limited by its Endeca-based search engine. By replacing the Endeca engine with Lucidworks search, CDW was able to collect and analyze user behavior signals to personalize the search experience. This resulted in a 3% increase in order conversion rate, a 40% reduction in zero-result searches, and a 10% increase in add-to-cart actions.",
+    "main_recommendation": {
+      "filename": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+      "link": "https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing",
+      "preview_info": "Source Document: Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf\nRaw link: https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing\n\nLucidworks Modernizes Search,..."
+    },
+    "other_sources": [
+      {
+        "filename": "Lucidworks B2B Clients.pptx",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "Win Report - TE Connectivity.pptx",
+        "link": "https://drive.google.com/file/d/1acFgcRuR7jew2rYyBL6vdFEp0_N7J1K2/view?usp=sharing"
+      },
+      {
+        "filename": "Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.docx",
+        "link": "https://drive.google.com/file/d/1UgdDMJxYQxQemLjJ8vxyPzto881EwPou/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Lenovo.pptx",
+        "link": "https://drive.google.com/file/d/14AUoZ2xGQIVZazXdScm3r6dPyjwPwxRv/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Exxon.pptx",
+        "link": "https://drive.google.com/file/d/14XLTrV0TF-FeAIb-AW-Ca46kX8hrij3q/view?usp=sharing"
+      },
+      {
+        "filename": "Mouser - Marketing Touchpoints.pptx",
+        "link": "https://drive.google.com/file/d/17mkIK12zRezen7KThuG2T64x2yicUwoF/view?usp=sharing"
+      }
+    ],
+    "raw_context_metadata": [
+      {
+        "document_type": "case_study",
+        "original_file_name": "Lucidworks B2B Clients.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks B2B Clients.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Win Report - TE Connectivity.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Win Report - TE Connectivity.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks B2B Commerce Customer Case Studies One Sheet.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.docx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Who, What, Win Reports/Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Opportunity Review - Lenovo.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Opportunity Review - Lenovo.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Opportunity Review - Exxon.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Opportunity Review - Exxon.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Mouser - Marketing Touchpoints.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Marketing Touchpoints to Closed Won/Mouser - Marketing Touchpoints.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Lucidworks Commerce Customer Case Studies One Sheet.pdf",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks Commerce Customer Case Studies One Sheet.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Opportunity Review - Toyota.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Opportunity Review - Toyota.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Win Report - TE Connectivity.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Win Report - TE Connectivity.txt"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-04-24T21:36:22.368608Z",
+    "question": "What's a good b2b case study to share?",
+    "answer": "A good B2B case study to share is the one involving CDW. The case study highlights how Lucidworks helped CDW, a global technology giant, improve its search experience. CDW wanted to create an omnichannel, personalized search experience for its sellers and B2B buyers but was limited by its Endeca-based search engine. By replacing the Endeca engine with Lucidworks search, CDW was able to collect and analyze user behavior signals to personalize the search experience. This resulted in a 3% increase in order conversion rate, a 40% reduction in zero-result searches, and a 10% increase in add-to-cart actions.",
+    "main_recommendation": {
+      "filename": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+      "link": "https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing",
+      "preview_info": "Source Document: Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf\nRaw link: https://drive.google.com/file/d/1qoZ1XZyl0fgCRze8rMnmnBIicB1HDdOZ/view?usp=sharing\n\nLucidworks Modernizes Search,..."
+    },
+    "other_sources": [
+      {
+        "filename": "Lucidworks B2B Clients.pptx",
+        "link": "https://drive.google.com/file/d/17__sEciFKtLLZAU9mbyPWj4lAeVT5kzY/view?usp=sharing"
+      },
+      {
+        "filename": "Win Report - TE Connectivity.pptx",
+        "link": "https://drive.google.com/file/d/1acFgcRuR7jew2rYyBL6vdFEp0_N7J1K2/view?usp=sharing"
+      },
+      {
+        "filename": "Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.docx",
+        "link": "https://drive.google.com/file/d/1UgdDMJxYQxQemLjJ8vxyPzto881EwPou/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Lenovo.pptx",
+        "link": "https://drive.google.com/file/d/14AUoZ2xGQIVZazXdScm3r6dPyjwPwxRv/view?usp=sharing"
+      },
+      {
+        "filename": "Opportunity Review - Exxon.pptx",
+        "link": "https://drive.google.com/file/d/14XLTrV0TF-FeAIb-AW-Ca46kX8hrij3q/view?usp=sharing"
+      },
+      {
+        "filename": "Mouser - Marketing Touchpoints.pptx",
+        "link": "https://drive.google.com/file/d/17mkIK12zRezen7KThuG2T64x2yicUwoF/view?usp=sharing"
+      }
+    ],
+    "raw_context_metadata": [
+      {
+        "document_type": "case_study",
+        "original_file_name": "Lucidworks B2B Clients.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks B2B Clients.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Win Report - TE Connectivity.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Win Report - TE Connectivity.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Lucidworks B2B Commerce Customer Case Studies One Sheet.pdf",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks B2B Commerce Customer Case Studies One Sheet.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.docx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Who, What, Win Reports/Who What Win Crate & Barrel-Managed Fusion with Predictive Merchandiser.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Opportunity Review - Lenovo.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Opportunity Review - Lenovo.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Opportunity Review - Exxon.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Opportunity Review - Exxon.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Mouser - Marketing Touchpoints.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Marketing Touchpoints to Closed Won/Mouser - Marketing Touchpoints.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Lucidworks Commerce Customer Case Studies One Sheet.pdf",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Lucidworks Commerce Customer Case Studies One Sheet.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Opportunity Review - Toyota.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Opportunity Review - Toyota.txt"
+      },
+      {
+        "document_type": "case_study",
+        "original_file_name": "Win Report - TE Connectivity.pptx",
+        "source": "drive_txt/Customer Stories (Sommer)/Case Studies/Win Reports created by AEs/Win Report - TE Connectivity.txt"
+      }
+    ]
+  }
+]

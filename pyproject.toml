@@ -1,7 +1,51 @@
 [project]
-name = "python-template"
-version = "0.1.0"
+name = "DocBot"
+version = "0.2.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = [
+  { name = "Joshua Buchanan", email = "joshua.buchanan@lucidworks.com" },
+  # You can add more authors here following the same format inside the brackets []
+  # { name = "Another Author", email = "another@example.com" },
+]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+  # Core Flask App
+  "Flask~=3.0.3",
+  "waitress",
+  "Flask-Session",
+  "redis",
+  # Langchain & AI (Pinned older versions known to work in Replit env)
+  "openai~=1.16.0",
+  "httpx~=0.25.0",
+  "langchain-core~=0.1.40",
+  "langchain-openai~=0.1.0",
+  # Pin other langchain packages compatibly with core 0.1.x
+  "langchain~=0.1.0",
+  "langchain-community~=0.0.30",
+  "langchain-chroma",
+  "chromadb==0.5.0",
+  "tiktoken",
+  # Cohere (Now uncommented based on your input)
+  "langchain-cohere",
+  "cohere",
+  # Google Cloud
+  "google-cloud-storage",
+  "google-auth",
+  # Document Parsers & Utils
+  "pdfminer.six==20221105",
+  "python-pptx",
+  "docx2txt",
+  "Pillow",
+  "python-dotenv==1.0.1",
+  "PyYAML==6.0.1",
+]
+
+# Optional dependencies (Keep commented out unless needed)
+# [project.optional-dependencies]
+# dev = ["pytest", "ruff"]
+
+# Add this section to guide setuptools during 'pip install .'
+[tool.setuptools]
+# Explicitly declare top-level Python modules (app.py -> "app")
+# This prevents setuptools from getting confused by 'static' and 'templates' folders.
+py-modules = ["app"]

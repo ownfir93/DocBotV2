@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DocBot</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Space+Mono&display=swap"
+    rel="stylesheet"
+  >
+  <link href="https://use.typekit.net/jcz4zof.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
+</head>
+<body>
+
+  <header>
+    <img src="{{ url_for('static', filename='LWLogo.svg') }}" alt="Lucidworks Logo" />
+    <h1>{{ bot_name | default('DocBot') }}</h1>
+  </header>
+
+  <main class="chat-container" id="chat">
+    <div class="message bot">
+      <div class="bubble">
+          Hi there! I’m DocBot, here to help you find insights in your documents. How can I assist you today?
+      </div>
+    </div>
+  </main>
+
+  
+
+  <form id="chat-form" class="chat-input-container">
+    <input
+      id="question"
+      name="question"
+      class="chat-input"
+      type="text"
+      placeholder="Type a question to search enablement docs"
+      autocomplete="off"
+      required
+    />
+    <button type="submit" id="send" class="button icon-button" aria-label="Send message">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"/></svg>
+      <span class="visually-hidden">Send</span>
+    </button>
+    <button type="button" id="stop" class="button stop-button icon-button" aria-label="Stop generation" style="display:none;">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M6 6h12v12H6z"/></svg>
+      <span class="visually-hidden">Stop</span>
+    </button>
+  </form>
+
+  <div
+    id="spinner"
+    class="spinner"
+    style="display:none;"
+  >
+    ⏳ Thinking…
+  </div>
+
+  <footer>
+    © 2025 Lucidworks | Design inspired by brand guidelines
+  </footer>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,583 @@
+#!/usr/bin/env python3
+import warnings
+import logging
+import os
+import io
+import json
+import asyncio
+from collections import deque
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaIoBaseDownload
+from pptx import Presentation
+from docx import Document as DocxDocument
+import docx2txt
+from PyPDF2 import PdfReader
+from quivr_core import Brain
+
+# Filter warnings after imports
+warnings.filterwarnings("ignore", category=UserWarning)
+logging.getLogger("transformers").setLevel(logging.ERROR)
+
+# Try to import PyTorch and related libraries
+try:
+    import torch
+    from sentence_transformers import SentenceTransformer
+    TORCH_AVAILABLE = True
+    print("✅ PyTorch is available! Enhanced embeddings enabled.")
+except ImportError:
+    TORCH_AVAILABLE = False
+    print("⚠️ PyTorch not available. Using default embeddings.")
+
+# ── Config & Auth ────────────────────────────────────────────────────────────
+OPENAI_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_KEY:
+    raise ValueError("Missing OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"] = OPENAI_KEY
+
+SERVICE_ACCOUNT_FILE = "googleapicredentials.json"
+SCOPES = [
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/documents.readonly",
+]
+FOLDER_ID = "1dT7PWne1NZByQf-rjghsFYGXTPyDu49o"
+LOCAL_ROOT = "drive"
+BRAIN_STORE = "brain_store"
+META_FILE = "metadata.json"
+
+creds = service_account.Credentials.from_service_account_file(
+    SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+drive_svc = build("drive", "v3", credentials=creds)
+docs_svc = build("docs", "v1", credentials=creds)
+
+os.makedirs(LOCAL_ROOT, exist_ok=True)
+
+# Initialize embedding model if PyTorch is available
+if TORCH_AVAILABLE:
+    try:
+        # Use a smaller model suitable for Replit's resources
+        model_name = "paraphrase-MiniLM-L3-v2"  # Lightweight model
+        embedding_model = SentenceTransformer(model_name)
+        print(f"🔄 Loaded embedding model: {model_name}")
+    except Exception as e:
+        print(f"⚠️ Error loading embedding model: {str(e)}")
+        TORCH_AVAILABLE = False
+
+# ── Load or init metadata ─────────────────────────────────────────────────────
+if os.path.exists(META_FILE):
+    with open(META_FILE, "r") as f:
+        metadata = json.load(f)
+else:
+    metadata = {}
+
+
+# ── Helper function for enhanced text embeddings ─────────────────────────────
+def enhance_text(text, max_length=512):
+    """Add enhanced metadata and embeddings to text if PyTorch is available"""
+    if not TORCH_AVAILABLE or not text:
+        return text
+
+    try:
+        # Simple text cleaning
+        cleaned_text = text.replace('\n\n', ' ').replace('\t', ' ')
+
+        # Generate embedding for the text (truncate if too long)
+        if len(cleaned_text
+               ) > max_length * 10:  # Roughly estimate character count
+            chunks = [
+                cleaned_text[i:i + max_length * 10]
+                for i in range(0, len(cleaned_text), max_length * 10)
+            ]
+            # Process just the first chunk to avoid memory issues
+            embedding = embedding_model.encode(chunks[0],
+                                               show_progress_bar=False)
+        else:
+            embedding = embedding_model.encode(cleaned_text,
+                                               show_progress_bar=False)
+
+        # We could store these embeddings separately if needed
+        # For now, we'll just return the original text since Quivr will handle embedding
+        return text
+    except Exception as e:
+        print(f"⚠️ Error enhancing text: {str(e)}")
+        return text
+
+
+# ── Phase 1: Incremental Fetch & Convert ──────────────────────────────────────
+def fetch_and_convert_incremental(folder_id):
+    print("📂 Phase 1: Incremental fetch & convert…")
+    queue = deque([folder_id])
+    id2path = {folder_id: LOCAL_ROOT}
+    to_index = []
+
+    list_fields = "nextPageToken, files(id,name,mimeType,modifiedTime)"
+
+    while queue:
+        fid = queue.popleft()
+        outdir = id2path[fid]
+        os.makedirs(outdir, exist_ok=True)
+        print(f"  ↳ Scanning folder → {outdir}")
+
+        page_token = None
+        while True:
+            resp = drive_svc.files().list(
+                q=f"'{fid}' in parents and trashed=false",
+                fields=list_fields,
+                pageToken=page_token).execute()
+            for f in resp.get("files", []):
+                file_id = f["id"]
+                name = f["name"]
+                mime = f["mimeType"]
+                mod_time = f["modifiedTime"]
+                safe = name.replace("/", "_")
+                ext = os.path.splitext(name)[1].lower()
+                raw_path = os.path.join(outdir, safe)
+                txt_path = os.path.join(outdir, safe + ".txt")
+
+                # Skip unchanged
+                if metadata.get(file_id) == mod_time and (
+                        os.path.isfile(raw_path + ext)
+                        or os.path.isfile(txt_path)):
+                    print(f"    ⏭️  No change → {name}")
+                    if os.path.isfile(txt_path):
+                        to_index.append(txt_path)
+                    elif os.path.isfile(raw_path + ext):
+                        to_index.append(raw_path + ext)
+                    continue
+
+                # Update metadata
+                metadata[file_id] = mod_time
+                print(f"    • {name} (updated)")
+
+                # Folders
+                if mime == "application/vnd.google-apps.folder":
+                    sub = os.path.join(outdir, safe)
+                    id2path[file_id] = sub
+                    queue.append(file_id)
+                    continue
+
+                # Google Docs → TXT
+                if mime == "application/vnd.google-apps.document":
+                    doc = docs_svc.documents().get(
+                        documentId=file_id).execute()
+                    runs = []
+                    for el in doc.get("body", {}).get("content", []):
+                        for e in el.get("paragraph", {}).get("elements", []):
+                            if "textRun" in e:
+                                runs.append(e["textRun"]["content"])
+
+                    text_content = "".join(runs)
+                    # Enhance text with PyTorch if available
+                    if TORCH_AVAILABLE:
+                        text_content = enhance_text(text_content)
+
+                    with open(txt_path, "w", encoding="utf-8") as wf:
+                        wf.write(text_content)
+                    print(f"      ✅ Exported Doc → {txt_path}")
+                    to_index.append(txt_path)
+                    continue
+
+                # Video → placeholder
+                if ext in [".mp4", ".mov", ".avi", ".mkv"]:
+                    if not os.path.exists(txt_path):
+                        link = f"https://drive.google.com/file/d/{file_id}/view"
+                        with open(txt_path, "w", encoding="utf-8") as wf:
+                            wf.write(
+                                f"Video placeholder for {name}\nLink: {link}\n"
+                            )
+                        print(f"      🔗 Video placeholder → {txt_path}")
+                    else:
+                        print(f"      ⏭️  Placeholder exists")
+                    to_index.append(txt_path)
+                    continue
+
+                # PPTX → convert to TXT
+                if ext == ".pptx":
+                    buf = io.BytesIO()
+                    dl = MediaIoBaseDownload(
+                        buf,
+                        drive_svc.files().get_media(fileId=file_id))
+                    while not dl.next_chunk()[1]:
+                        pass
+                    with open(raw_path + ext, "wb") as wf:
+                        wf.write(buf.getvalue())
+
+                    try:
+                        prs = Presentation(raw_path + ext)
+                        slides = []
+                        for sl in prs.slides:
+                            for sh in sl.shapes:
+                                if hasattr(sh, "text") and sh.text.strip():
+                                    slides.append(sh.text.strip())
+
+                        text_content = "\n\n".join(slides)
+                        # Enhance text with PyTorch if available
+                        if TORCH_AVAILABLE:
+                            text_content = enhance_text(text_content)
+
+                        with open(txt_path, "w", encoding="utf-8") as wf:
+                            wf.write(text_content)
+                        print(f"      ✅ Converted PPTX → {txt_path}")
+                        to_index.append(txt_path)
+                    except Exception as e:
+                        print(f"      ❌ Error converting PPTX: {str(e)}")
+                        to_index.append(raw_path + ext)
+                    continue
+
+                # PDF → convert to TXT
+                if ext == ".pdf":
+                    buf = io.BytesIO()
+                    dl = MediaIoBaseDownload(
+                        buf,
+                        drive_svc.files().get_media(fileId=file_id))
+                    while not dl.next_chunk()[1]:
+                        pass
+
+                    with open(raw_path + ext, "wb") as wf:
+                        wf.write(buf.getvalue())
+
+                    try:
+                        reader = PdfReader(io.BytesIO(buf.getvalue()))
+                        text = []
+                        for page in reader.pages:
+                            extracted = page.extract_text()
+                            if extracted:
+                                text.append(extracted)
+
+                        if text:
+                            text_content = "\n\n".join(text)
+                            # Enhance text with PyTorch if available
+                            if TORCH_AVAILABLE:
+                                text_content = enhance_text(text_content)
+
+                            with open(txt_path, "w", encoding="utf-8") as wf:
+                                wf.write(text_content)
+                            print(f"      ✅ Converted PDF → {txt_path}")
+                            to_index.append(txt_path)
+                        else:
+                            print(f"      ⚠️ No text in PDF, using raw file")
+                            to_index.append(raw_path + ext)
+                    except Exception as e:
+                        print(f"      ❌ Error converting PDF: {str(e)}")
+                        to_index.append(raw_path + ext)
+                    continue
+
+                # DOCX → convert to TXT
+                if ext == ".docx":
+                    buf = io.BytesIO()
+                    dl = MediaIoBaseDownload(
+                        buf,
+                        drive_svc.files().get_media(fileId=file_id))
+                    while not dl.next_chunk()[1]:
+                        pass
+
+                    with open(raw_path + ext, "wb") as wf:
+                        wf.write(buf.getvalue())
+
+                    try:
+                        text = docx2txt.process(raw_path + ext)
+                        if text.strip():
+                            # Enhance text with PyTorch if available
+                            if TORCH_AVAILABLE:
+                                text = enhance_text(text)
+
+                            with open(txt_path, "w", encoding="utf-8") as wf:
+                                wf.write(text)
+                            print(f"      ✅ Converted DOCX → {txt_path}")
+                            to_index.append(txt_path)
+                        else:
+                            print(f"      ⚠️ No text in DOCX, using raw file")
+                            to_index.append(raw_path + ext)
+                    except Exception as e:
+                        print(f"      ❌ Error converting DOCX: {str(e)}")
+                        to_index.append(raw_path + ext)
+                    continue
+
+                # Other supported types
+                SUPPORTED_EXTS = {
+                    ".txt", ".md", ".rst", ".csv", ".json", ".yaml", ".html",
+                    ".htm", ".py", ".js", ".ts", ".java", ".css"
+                }
+                if ext in SUPPORTED_EXTS:
+                    buf = io.BytesIO()
+                    dl = MediaIoBaseDownload(
+                        buf,
+                        drive_svc.files().get_media(fileId=file_id))
+                    while not dl.next_chunk()[1]:
+                        pass
+                    with open(raw_path + ext, "wb") as wf:
+                        wf.write(buf.getvalue())
+                    print(f"      ✅ Downloaded → {raw_path + ext}")
+                    to_index.append(raw_path + ext)
+                    continue
+
+                print(f"      ⚠️  Skipped unsupported: {name}")
+
+            page_token = resp.get("nextPageToken")
+            if not page_token:
+                break
+
+    with open(META_FILE, "w") as f:
+        json.dump(metadata, f, indent=2)
+
+    # Filter: only try to index text files and other safe formats
+    safe_files = []
+    for f in to_index:
+        ext = os.path.splitext(f)[1].lower()
+        # Prioritize text files
+        if ext == '.txt':
+            safe_files.append(f)
+        # Only include other formats if we need to
+        elif ext in [
+                '.md', '.csv', '.json', '.html', '.htm', '.py', '.js', '.ts',
+                '.java', '.css'
+        ]:
+            safe_files.append(f)
+
+    print(f"📂 Phase 1 complete: {len(safe_files)} files to index.\n")
+    return safe_files
+
+
+# ── Phase 2: Load or build the Brain ──────────────────────────────────────────
+def get_or_build_brain(files):
+    try:
+        brain_store_path = os.path.abspath(BRAIN_STORE)
+        if os.path.isdir(brain_store_path):
+            print(
+                f"⚙️  Phase 2: Loading existing Brain from {brain_store_path}…"
+            )
+            try:
+                # List files in the directory
+                dir_contents = os.listdir(brain_store_path)
+                print(f"Files in brain store directory: {dir_contents}")
+
+                # Check if we have subdirectories that might contain the brain
+                brain_subdirs = [
+                    d for d in dir_contents if d.startswith('brain_')
+                    and os.path.isdir(os.path.join(brain_store_path, d))
+                ]
+
+                if brain_subdirs:
+                    # Try to load from the most recently created subdirectory
+                    brain_subdirs.sort(key=lambda x: os.path.getmtime(
+                        os.path.join(brain_store_path, x)))
+                    latest_brain = brain_subdirs[-1]
+                    subdir_path = os.path.join(brain_store_path, latest_brain)
+
+                    print(
+                        f"Attempting to load brain from subdirectory: {latest_brain}"
+                    )
+                    if os.path.exists(os.path.join(subdir_path,
+                                                   'config.json')):
+                        brain = Brain.load(subdir_path)
+                        print("🧠 Brain loaded successfully!")
+                        return brain
+
+                # If we haven't returned yet, try loading from main dir
+                if os.path.exists(os.path.join(brain_store_path,
+                                               'config.json')):
+                    brain = Brain.load(brain_store_path)
+                    print("🧠 Brain loaded successfully!")
+                    return brain
+
+                raise FileNotFoundError(
+                    "Could not find a valid brain configuration")
+            except Exception as e:
+                print(f"❌ Error loading brain: {str(e)}")
+                print("Will try to rebuild...")
+        else:
+            print(f"⚙️ No existing brain found at {brain_store_path}")
+
+        # If we reach here, we need to build a new brain
+        print("⚙️  Phase 2: Building new Brain…")
+
+        if not files:
+            print("❌ No valid files to process!")
+            # Create an empty brain
+            brain = Brain(name="MyDriveBot")
+            return brain
+
+        print(f"📄 Building brain with {len(files)} files")
+        print("Files to be included (first 10):")
+        for i, path in enumerate(files[:10]):
+            print(f"  {i+1}. {path}")
+        if len(files) > 10:
+            print(f"  ... and {len(files) - 10} more")
+
+        try:
+            # Create the brain with files
+            brain = Brain.from_files(name="MyDriveBot", file_paths=files)
+
+            # Ensure the directory exists and is clean
+            if os.path.exists(brain_store_path):
+                import shutil
+                shutil.rmtree(brain_store_path)
+            os.makedirs(brain_store_path, exist_ok=True)
+
+            print(f"💾 Saving Brain to disk at {brain_store_path}…")
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            try:
+                loop.run_until_complete(brain.save(brain_store_path))
+            finally:
+                loop.close()
+
+            print(f"🧠 Brain ready! Saved to {brain_store_path}")
+            print(
+                f"Files in brain store directory after save: {os.listdir(brain_store_path)}"
+            )
+
+            # Copy config to the expected location if needed
+            brain_subdirs = [
+                d for d in os.listdir(brain_store_path)
+                if d.startswith('brain_')
+                and os.path.isdir(os.path.join(brain_store_path, d))
+            ]
+            if brain_subdirs and not os.path.exists(
+                    os.path.join(brain_store_path, 'config.json')):
+                latest_brain = brain_subdirs[-1]
+                subdir_path = os.path.join(brain_store_path, latest_brain)
+                if os.path.exists(os.path.join(subdir_path, 'config.json')):
+                    import shutil
+                    print(
+                        f"Copying config.json from subdirectory to main directory for future loading"
+                    )
+                    shutil.copy(os.path.join(subdir_path, 'config.json'),
+                                os.path.join(brain_store_path, 'config.json'))
+
+            return brain
+        except Exception as e:
+            print(f"❌ Error building brain with all files: {str(e)}")
+            if len(files) > 5:
+                print("⚠️ Trying with a smaller batch...")
+                try:
+                    brain = Brain.from_files(name="MyDriveBot",
+                                             file_paths=files[:5])
+
+                    print(f"💾 Saving Brain to disk at {brain_store_path}…")
+                    loop = asyncio.new_event_loop()
+                    asyncio.set_event_loop(loop)
+                    try:
+                        loop.run_until_complete(brain.save(brain_store_path))
+                    finally:
+                        loop.close()
+
+                    print("🧠 Brain ready (limited)!\n")
+                    return brain
+                except Exception as e:
+                    print(f"❌ Error building limited brain: {str(e)}")
+
+            # Last resort: create a simple brain
+            print("⚠️ Creating a simple empty brain")
+            brain = Brain(name="EmptyBrain")
+            return brain
+    except Exception as e:
+        print(f"❌ Unexpected error: {str(e)}")
+        brain = Brain(name="EmptyBrain")
+        return brain
+
+
+# ── Phase 3: REPL Chat with Enhanced Analysis ─────────────────────────────────
+def chat_loop(brain):
+    print("🤖 Ask me anything (type 'exit' to quit)\n")
+    while True:
+        try:
+            q = input("You: ")
+        except (EOFError, KeyboardInterrupt):
+            print("\n👋 Goodbye!")
+            break
+        if q.strip().lower() in ("exit", "quit"):
+            print("👋 Goodbye!")
+            break
+
+        try:
+            # Enhanced query processing if PyTorch is available
+            if TORCH_AVAILABLE:
+                # You could enhance the query here if needed
+                pass
+
+            # Create a new event loop for each question
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+
+            try:
+                # Run the query in the event loop
+                resp = loop.run_until_complete(brain.ask(q))
+
+                # Extract response parts
+                if isinstance(resp, str):
+                    answer = resp
+                    metadata = None
+                    source_documents = []
+                else:
+                    # Try to extract answer and metadata based on common response formats
+                    answer = getattr(resp, 'answer', resp)
+                    metadata = getattr(resp, 'metadata', None)
+
+                    # Try to extract source documents from various attributes
+                    source_documents = []
+                    if hasattr(resp, 'source_documents'):
+                        source_documents = resp.source_documents
+                    elif hasattr(resp, 'sources'):
+                        source_documents = resp.sources
+
+                # Print the answer
+                print("\nBot:", answer)
+
+                # Print document links if available
+                if source_documents:
+                    print("\n📂 Sources:")
+                    for i, doc in enumerate(source_documents[:3]):
+                        # Get document path and metadata
+                        if hasattr(doc, 'metadata'):
+                            src = doc.metadata.get(
+                                'source',
+                                doc.metadata.get('file_path', "unknown"))
+                        else:
+                            src = getattr(doc, 'source',
+                                          getattr(doc, 'file_path', "unknown"))
+
+                        # Get document content
+                        if hasattr(doc, 'page_content'):
+                            content = doc.page_content
+                        else:
+                            content = getattr(doc, 'content', "")
+
+                        # Create a snippet
+                        if content:
+                            snippet = content.replace("\n", " ").strip()[:200]
+                            if len(content) > 200:
+                                snippet += "…"
+                        else:
+                            snippet = "[No preview available]"
+
+                        # Print document info with link
+                        print(f"{i+1}. \033[4m\033[34m{src}\033[0m")
+                        print(f"   {snippet}\n")
+
+            except TypeError as e:
+                # If that didn't work, try without the await
+                try:
+                    resp = brain.ask(q)
+                    print("\nBot:", resp)
+                except Exception as e2:
+                    print(f"\nBot: I encountered a secondary error: {str(e2)}")
+            finally:
+                # Always close the loop
+                loop.close()
+
+        except Exception as e:
+            print(f"\nBot: I encountered an error: {str(e)}")
+            print("Try asking a different question.")
+
+        print("—" * 40)
+
+
+# ── Main entrypoint ───────────────────────────────────────────────────────────
+if __name__ == "__main__":
+    try:
+        files = fetch_and_convert_incremental(FOLDER_ID)
+        brain = get_or_build_brain(files)
+        chat_loop(brain)
+    except Exception as e:
+        print(f"❌ Fatal error: {str(e)}")

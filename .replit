@@ -13,3 +13,15 @@ requiredFiles = [".replit", "replit.nix"]
 [deployment]
 run = ["python3", "main.py"]
 deploymentTarget = "cloudrun"
+
+[workflows]
+runButton = "Run App.Py"
+
+[[workflows.workflow]]
+name = "Run App.Py"
+mode = "sequential"
+author = 29406857
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 app.py"
