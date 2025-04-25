@@ -908,6 +908,41 @@ def initialize_app():
     # 4. Create Self-Query Retriever
     try:
         print("Creating Self-Query Retriever...")
+        # Create a custom translator that extends ChromaTranslator to handle case-insensitive document_type matching
+        class CaseInsensitiveChromaTranslator(ChromaTranslator):
+            def visit_comparison(self, comparison):
+                # Handle document_type specifically to make it case-insensitive
+                if comparison.attribute == "document_type":
+                    # Dictionary to map standardized values to actual index values
+                    doc_type_mapping = {
+                        "case_study": ["Case Studies", "case study", "case_study"],
+                        "win_report": ["Win Reports created by AEs", "Who, What, Win Reports", "win_report"],
+                        "discovery_guide": ["Discovery Guide", "Discovery Guide Examples", "Discovery Guide Workshops"],
+                        "one_pager": ["One-Pagers"],
+                        "sales_deck": ["Sales Decks"]
+                    }
+                    
+                    # Convert the value to lowercase for standardization
+                    value = comparison.value.lower() if isinstance(comparison.value, str) else comparison.value
+                    
+                    # If the value matches one of our standardized keys
+                    for std_key, actual_values in doc_type_mapping.items():
+                        if value == std_key:
+                            # Create an OR filter for all possible matches in the index
+                            or_filters = []
+                            for actual_value in actual_values:
+                                or_filters.append({"document_type": {"$eq": actual_value}})
+                            
+                            # Return an OR query that tries all variations
+                            if len(or_filters) > 1:
+                                return {"$or": or_filters}
+                            elif len(or_filters) == 1:
+                                return or_filters[0]
+                
+                # For all other fields, use the default implementation
+                return super().visit_comparison(comparison)
+        
+        # Use the custom translator
         retriever = SelfQueryRetriever.from_llm(
             llm=llm_instance,
             vectorstore=vector_store,
@@ -916,7 +951,7 @@ def initialize_app():
             search_kwargs={"k": RETRIEVAL_TOP_K},
             verbose=True,
             enable_limit=True,
-            structured_query_translator=ChromaTranslator()
+            structured_query_translator=CaseInsensitiveChromaTranslator()
         )
         print("Self-Query Retriever created.")
 
