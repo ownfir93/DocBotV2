@@ -310,42 +310,139 @@ def process_source_blob(blob: storage.Blob,
             Path(blob.name).name,
         }
         
-        # --- START Normalization Logic for document_type ---
-        parent_folder_name = Path(blob.name).parent.name if '/' in blob.name else "root"
-        parent_lower = parent_folder_name.lower() # Work with lowercase
+        # --- START: Category Keyword Definitions ---
+        # Based on GCS structure from gs://lwdocbot/Seismic Mirror/
+        # Keys should match the 'normalized_type' generated in process_source_blob
+        CATEGORY_KEYWORDS = {
+            # Top Level or General
+            "root": [], # Files directly under Seismic Mirror/
+            "highspot_download": ["asset", "content", "downloaded file", "whitepaper", "report", "datasheet", "presentation", "competitive analysis", "proposal", "rfi response", "benchmark", "survey", "webinar"],
+            "product_marketing": ["messaging", "positioning", "datasheet", "feature overview", "go-to-market", "competitive analysis", "presentation", "platform overview", "gartner", "demo", "analyst"],
+            "one_pager": ["summary", "overview", "brief", "datasheet", "flyer", "handout", "sell sheet", "solution brief"],
+            "deal_desk": ["pricing", "quoting", "approval", "contract", "SLA", "renewal", "SKU", "tiers", "purchasing", "legal"],
+            "marketing_content": ["marketing asset", "campaign material"],
+            "webinar": ["presentation", "recording", "online event", "demo", "marketing content"],
 
+            # Customer Stories Structure
+            "case_study": ["customer success", "success story", "client example", "implementation", "results", "ROI", "challenge", "solution", "b2b example", "use case", "client story", "testimonial"],
+            # Note: Win reports also get case study keywords added below in the code logic if needed
+
+            # Win Report Sub-Types (Can inherit from case_study if desired)
+            "marketing_touchpoints_to_closed_won": ["marketing campaign", "lead generation", "attribution", "closed won", "customer journey", "deal analysis", "win report"],
+            "who_what_win_report": ["deal summary", "competitive win", "sales success", "customer problem", "solution provided", "win report"],
+            "win_report_ae": ["AE perspective", "sales success", "opportunity review", "client name", "competitive win", "win wire", "win report"],
+
+            # RevOps & Enablement Structure
+            "revops_enablement": ["revops", "sales enablement", "gtm operations", "process", "sales guidelines", "kpmg"], # Top level
+            "enablement": ["training", "learning", "onboarding", "bootcamp", "glossary", "ICP", "TAL", "sales enablement", "product enablement", "faq"], # Sub-folder
+            "meddicc": ["MEDDIC", "MEDDPICC", "sales process", "qualification", "customer engagement", "opportunity review"],
+            "roi_calculator": ["ROI", "calculator", "value assessment", "business case", "maturity assessment", "cost savings", "value engineering"],
+            "sales_deck": ["presentation", "pitch", "slides", "customer presentation", "NBM deck", "QBR", "overview", "sales collateral", "marketing deck"],
+
+            # Value Framework Sub-Structure
+            "discovery_guide": ["discovery questions", "qualification", "needs analysis", "pain points", "requirements gathering", "probing", "discovery process", "value framework", "worksheet", "template", "example"],
+            "discovery_guide_example": ["discovery guide", "example", "template"], # Specific examples subfolder
+            "discovery_guide_workshop": ["discovery guide", "workshop", "training", "worksheet", "framework"], # Specific workshops subfolder
+            "value_landscape": ["value proposition", "market positioning", "value driver", "personas", "competitive landscape"],
+            "value_map": ["value proposition", "value driver", "solution mapping", "benefits", "features"],
+
+            # Fallback
+            "unknown": [],
+        }
+        
+        # --- END: Category Keyword Definitions ---
+
+        # Determine document type based on path, prioritizing deeper paths
+        # Remove the source prefix and potential leading/trailing slashes
+        relative_path_str = blob.name
+        if GCS_SOURCE_PREFIX and relative_path_str.startswith(GCS_SOURCE_PREFIX):
+            relative_path_str = relative_path_str[len(GCS_SOURCE_PREFIX):]
+
+        path_parts = Path(relative_path_str).parts
         doc_type = "unknown" # Default
 
-        if "case studies" in parent_lower or "case study" in parent_lower:
-            doc_type = "case_study" # Standardized value
-        elif "win report" in parent_lower or "who, what, win" in parent_lower: # Catches variations
-            doc_type = "win_report"
-        elif "discovery guide" in parent_lower:
+        # Normalize function
+        def normalize_key(text):
+            text = text.lower()
+            text = re.sub(r'[\(\)]', '', text) # Remove parentheses
+            text = re.sub(r'[\+&]', 'and', text) # Replace + or & with 'and'
+            text = re.sub(r'[^\w\s-]', '', text) # Remove non-alphanumeric except space, hyphen
+            text = re.sub(r'\s+', '_', text).strip('_') # Replace spaces with underscore
+            return text if text else "unknown"
+
+        # Check specific known paths first (deepest first)
+        full_path_lower = relative_path_str.lower()
+        if "/case studies/win reports/marketing touchpoints to closed won/" in full_path_lower:
+            doc_type = "marketing_touchpoints_to_closed_won"
+        elif "/case studies/win reports/who, what, win reports/" in full_path_lower:
+            doc_type = "who_what_win_report"
+        elif "/case studies/win reports/win reports created by aes/" in full_path_lower:
+            doc_type = "win_report_ae"
+        elif "/case studies/" in full_path_lower:
+             # Check if it's just a case study, not a sub-type of win report
+             if "/win reports/" not in full_path_lower:
+                  doc_type = "case_study"
+             # If it IS under win reports but didn't match specific type, maybe assign general 'win_report'?
+             # else:
+             #     doc_type = "win_report" # Optional general win_report category
+        elif "/value framework/discovery guide/discovery guide examples/" in full_path_lower:
+            doc_type = "discovery_guide_example"
+        elif "/value framework/discovery guide/discovery guide workshops/" in full_path_lower:
+            doc_type = "discovery_guide_workshop"
+        elif "/value framework/discovery guide/" in full_path_lower:
             doc_type = "discovery_guide"
-        elif "one-pager" in parent_lower or "one pager" in parent_lower: 
-            doc_type = "one_pager"
-        elif "sales deck" in parent_lower:
-            doc_type = "sales_deck"
-        elif "roi calculator" in parent_lower:
-            doc_type = "roi_calculator"
-        elif "value map" in parent_lower or "value landscape" in parent_lower:
-            doc_type = "value_tool"
-        elif "product marketing" in parent_lower:
-            doc_type = "product_marketing"
-        elif "enablement" in parent_lower:
+        elif "/value framework/value landscape/" in full_path_lower:
+            doc_type = "value_landscape"
+        elif "/value framework/value map/" in full_path_lower:
+            doc_type = "value_map"
+        elif "/revops + enablement  (jaisy)/enablement/" in full_path_lower: # Note potential double space
             doc_type = "enablement"
-        # Fallback to cleaned folder name if no specific rule matched
-        elif parent_lower:
-            # Replace non-alphanumeric with underscore, remove leading/trailing underscores
-            cleaned_type = re.sub(r'[^\w-]+', '_', parent_lower).strip('_')
-            # Ensure it's not empty after cleaning
-            if cleaned_type and cleaned_type != "root":
-                doc_type = cleaned_type
-            elif cleaned_type == "root":
-                doc_type = "root" # Keep 'root' if it was the only part
+        elif "/revops + enablement  (jaisy)/meddicc/" in full_path_lower:
+            doc_type = "meddicc"
+        elif "/revops + enablement  (jaisy)/roi calculators/" in full_path_lower:
+            doc_type = "roi_calculator"
+        elif "/revops + enablement  (jaisy)/sales decks/" in full_path_lower:
+            doc_type = "sales_deck"
+        elif "/revops + enablement  (jaisy)/" in full_path_lower: # Parent folder if not in subfolder
+             doc_type = "revops_enablement"
+        elif "/deal desk (natalie)/" in full_path_lower:
+            doc_type = "deal_desk"
+        elif "/highspot downloads/" in full_path_lower:
+             doc_type = "highspot_download"
+        elif "/marketing content (lila)/webinars/" in full_path_lower:
+             doc_type = "webinar"
+        elif "/marketing content (lila)/" in full_path_lower:
+             doc_type = "marketing_content"
+        elif "/one-pagers/" in full_path_lower:
+             doc_type = "one_pager"
+        elif "/product marketing/gartner demos 2025/" in full_path_lower:
+             # Decide if demos get own type or inherit from product marketing
+             doc_type = "product_marketing" # Example: Inherit
+        elif "/product marketing/" in full_path_lower:
+             doc_type = "product_marketing"
+        elif len(path_parts) > 1 : # Use immediate parent if path has depth and no specific rule matched
+            doc_type = normalize_key(path_parts[-2]) # Use parent folder name
+        elif len(path_parts) == 1 and path_parts[0] != relative_path_str: # File in root?
+             doc_type = "root"
+
 
         metadata['document_type'] = doc_type
-        # --- END Normalization Logic ---
+        logging.debug(f"Assigned document_type: {doc_type} for blob {blob.name}")
+
+        # Add category keywords based on the determined doc_type
+        keywords = CATEGORY_KEYWORDS.get(doc_type, [])
+        # --- USER REQUEST: Add case study keywords also to win reports ---
+        if doc_type in ["win_report_ae", "who_what_win_report", "marketing_touchpoints_to_closed_won"]:
+             keywords.extend(CATEGORY_KEYWORDS.get("case_study", []))
+             keywords = list(set(keywords)) # Remove duplicates
+        # --- END USER REQUEST ---
+        if keywords:
+            metadata['category_keywords'] = keywords
+            logging.debug(f"Added keywords for type '{doc_type}': {keywords}")
+        else:
+            logging.debug(f"No specific keywords found for type '{doc_type}'.")
+
+        logging.debug(f"Final metadata for blob {blob.name}: {metadata}")
 
         logging.debug(
             f"Processed blob {blob.name}, extracted {len(text)} chars. Assigned document_type: {doc_type}")
