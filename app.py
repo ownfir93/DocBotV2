@@ -108,17 +108,14 @@ GCS_BUCKET_NAME = os.getenv("GCS_BUCKET_NAME")
 GCS_INDEX_PATH = os.getenv("GCS_INDEX_PATH", "vector_index/chroma_db/") # Path IN BUCKET where index is stored
 GCS_INDEX_PATH = GCS_INDEX_PATH.strip('/') + '/' if GCS_INDEX_PATH else ""
 
-# Flask Session Configuration (Example for Redis)
+# Flask Session Configuration
 # REQUIRED - Set a strong secret key in your environment!
 SECRET_KEY = os.getenv("FLASK_SECRET_KEY", "a-very-strong-secret-key-please-change")
-SESSION_TYPE = os.getenv("SESSION_TYPE", "redis") # Use 'redis' for persistent sessions
+SESSION_TYPE = os.getenv("SESSION_TYPE", "filesystem") # Use 'filesystem' for local sessions
 SESSION_PERMANENT = os.getenv("SESSION_PERMANENT", "True").lower() == "true"
 SESSION_USE_SIGNER = os.getenv("SESSION_USE_SIGNER", "True").lower() == "true" # Encrypt cookie
-SESSION_KEY_PREFIX = os.getenv("SESSION_KEY_PREFIX", "session:")
-SESSION_REDIS_HOST = os.getenv("SESSION_REDIS_HOST", "localhost") # Redis server hostname
-SESSION_REDIS_PORT = int(os.getenv("SESSION_REDIS_PORT", 6379))   # Redis server port
-SESSION_REDIS_DB = int(os.getenv("SESSION_REDIS_DB", 0))         # Redis database number
-SESSION_REDIS_PASSWORD = os.getenv("SESSION_REDIS_PASSWORD", None) # Redis password if needed
+SESSION_FILE_DIR = tempfile.mkdtemp(prefix="flask_session_")
+SESSION_FILE_THRESHOLD = 500  # Maximum number of items the session stores
 
 # Optional: Signed URL expiration time (in seconds)
 SIGNED_URL_EXPIRATION = int(os.getenv("SIGNED_URL_EXPIRATION", 900)) # 15 minutes default
@@ -186,12 +183,8 @@ app.config['SECRET_KEY'] = SECRET_KEY
 app.config['SESSION_TYPE'] = SESSION_TYPE
 app.config['SESSION_PERMANENT'] = SESSION_PERMANENT
 app.config['SESSION_USE_SIGNER'] = SESSION_USE_SIGNER
-app.config['SESSION_KEY_PREFIX'] = SESSION_KEY_PREFIX
-
-if SESSION_TYPE == 'redis':
-    redis_url = f"redis://{':' + SESSION_REDIS_PASSWORD + '@' if SESSION_REDIS_PASSWORD else ''}{SESSION_REDIS_HOST}:{SESSION_REDIS_PORT}/{SESSION_REDIS_DB}"
-    app.config['SESSION_REDIS'] = redis.from_url(redis_url)
-    logging.info(f"Configuring Flask-Session with Redis at {SESSION_REDIS_HOST}:{SESSION_REDIS_PORT}")
+app.config['SESSION_FILE_DIR'] = SESSION_FILE_DIR
+app.config['SESSION_FILE_THRESHOLD'] = SESSION_FILE_THRESHOLD
 
 # Initialize the session extension
 Session(app)
@@ -830,7 +823,7 @@ def initialize_app():
         if not vector_store:
             raise RuntimeError("Failed to load vector store from GCS.")
         print(f"Vector store loaded successfully from GCS.")
-        
+
         # --- START DEBUG BLOCK: Inspect 'document_type' metadata ---
         print("DEBUG: Inspecting vector store metadata...")
         logging.info("DEBUG: Inspecting vector store metadata...") # Also log
