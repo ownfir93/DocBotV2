@@ -458,44 +458,59 @@ async def _targeted_search(client_name: str) -> List[Document]:
     """Perform a targeted search for documents specifically about a client."""
     try:
         logging.info(f"Attempting targeted search for client: '{client_name}'")
+        
+        # Determine if we're looking for B2C content
+        is_b2c_search = client_name.lower() in ["b2c", "retail", "consumer", "ecommerce"] or "b2c" in client_name.lower()
+        
+        search_query = client_name
+        if is_b2c_search:
+            search_query = "B2C case study" if "case study" not in client_name.lower() else client_name
+            logging.info(f"Detected B2C search, using query: '{search_query}'")
 
         # First search for client name in win reports
         filter_condition = {
             "document_type": {"$eq": "win_report"}
         }
-
-        # Use vector store's similarity search with the client name
-        docs = await vector_store.asimilarity_search(
-            query=client_name,
-            k=5,  # Get top 5
-            filter=filter_condition
-        )
-
-        logging.info(f"Targeted search found {len(docs)} win_report documents for '{client_name}'")
+        
+        if is_b2c_search:
+            # For B2C searches, don't filter by document_type initially
+            docs = await vector_store.asimilarity_search(
+                query=search_query,
+                k=5  # Get top 5
+            )
+            logging.info(f"B2C targeted search found {len(docs)} documents for '{search_query}'")
+        else:
+            # Use vector store's similarity search with the client name
+            docs = await vector_store.asimilarity_search(
+                query=search_query,
+                k=5,  # Get top 5
+                filter=filter_condition
+            )
+            logging.info(f"Targeted search found {len(docs)} win_report documents for '{search_query}'")
 
         # If no win reports, try case studies
         if not docs:
-            logging.info(f"No win reports found, trying case_study documents for '{client_name}'")
+            logging.info(f"No win reports found, trying case_study documents for '{search_query}'")
             filter_condition = {
                 "document_type": {"$eq": "case_study"}
             }
 
             docs = await vector_store.asimilarity_search(
-                query=client_name,
+                query=search_query,
                 k=5,
                 filter=filter_condition
             )
 
-            logging.info(f"Targeted search found {len(docs)} case_study documents for '{client_name}'")
+            logging.info(f"Targeted search found {len(docs)} case_study documents for '{search_query}'")
 
         # If still nothing, try a broader search
         if not docs:
-            logging.info(f"No specific documents found, trying without type filter for '{client_name}'")
+            logging.info(f"No specific documents found, trying without type filter for '{search_query}'")
             docs = await vector_store.asimilarity_search(
-                query=client_name,
+                query=search_query,
                 k=5
             )
-            logging.info(f"Broader targeted search found {len(docs)} documents for '{client_name}'")
+            logging.info(f"Broader targeted search found {len(docs)} documents for '{search_query}'")
 
         # Filter and log results
         client_in_filename_docs = []
@@ -627,7 +642,12 @@ def api_chat():
                     "zola", "lululemon", "llbean", "costco", "fidelity", "northwestern mutual",
                     "american airlines", "t mobile", "toyota", "iqvia", "the hartford",
                     "blue cross", "te connectivity", "loyalty one", "restoration hardware",
-                    "td ameritrade", "siemens"] # Added Siemens just in case
+                    "td ameritrade", "siemens", 
+                    # B2C clients
+                    "crate and barrel", "apparel", "activewear", "restoring hardware",
+                    "footlocker", "walmart", "target", "best buy", "home depot", "ikea", 
+                    "williams sonoma", "macys", "nordstrom", "lowes", "gap", "old navy", 
+                    "b2c", "retail", "consumer", "ecommerce"]
     for client in known_clients:
         if client.lower() in answer_lower:
             mentioned_clients.append(client)
