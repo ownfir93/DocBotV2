@@ -886,7 +886,7 @@ def initialize_app():
         ),
         AttributeInfo(
             name="document_type",
-            description="The category derived from the document's parent folder name or filename keywords (e.g., 'case_study', 'win_report', 'pitch_deck', 'discovery_guide', 'report', 'presentation', 'unknown'). Both 'case_study' and 'win_report' can contain customer success information and may be relevant when asked for a case study.",
+            description="The category or type of the document, derived from its source folder or filename. Examples include: 'case_study', 'win_report', 'sales_deck', 'one_pager', 'product_marketing', 'enablement', 'discovery_guide', 'deal_desk', 'roi_calculator', 'presentation', 'report', 'highspot_download', 'unknown'. Use this field to filter searches to specific document categories ONLY when the user explicitly asks for a certain type of document.",
             type="string",
         ),
         AttributeInfo(
@@ -895,7 +895,7 @@ def initialize_app():
             type="string",
         ),
     ]
-    document_content_description = "Various business documents including case studies, reports, presentations, pitch decks, and discovery guides."
+    document_content_description = "A collection of business and sales documents, including customer case studies, win reports, sales decks, product marketing materials, pricing/deal desk information, one-page summaries, discovery guides, enablement resources, and other reports or presentations."
     print("Metadata fields defined for Self-Query.")
 
     # 4. Create Self-Query Retriever
